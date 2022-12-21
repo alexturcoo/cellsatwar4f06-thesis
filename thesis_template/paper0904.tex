@@ -1,0 +1,422 @@
+\documentclass{article}
+%\documentclass[twocolumn]{article}
+%\documentclass[onecolumn]{article}
+% \usepackage{scrtime} % for \thistime (this package MUST be listed first!)
+\DeclareUnicodeCharacter{0301}{\'{e}}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{notoccite}
+\usepackage{pgfplotstable}
+%\usepackage[round]{natbib}
+%\setcitestyle{aysep={}} %removes the comma between the author and year in citations
+%\usepackage{underscore}
+\usepackage{pdfpages}
+\usepackage{xcolor,colortbl}%for changing cell colour
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{capt-of}
+\pagestyle{fancy}
+\setlength{\headheight}{15.2pt}
+\setlength{\headsep}{13 pt}
+\setlength{\parindent}{28 pt}
+\setlength{\parskip}{12 pt}
+\pagestyle{fancyplain}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+% \usepackage{color,amsmath,amssymb,amsthm,mathrsfs,amsfonts,dsfont}
+\usepackage{xspace}
+\usepackage{tikz-cd}
+\usepackage{tikz}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{calc, arrows}
+\usetikzlibrary{external}
+\usepackage{pgfplots}
+\pgfplotsset{layers/my layer set/.define layer set={background,main,foreground}{},
+        set layers=my layer set,}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%for code
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+% \usetikzlibrary{pgfplots.clickable}
+% \usepgfplotslibrary{clickable}
+% tables
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{multirow}
+% figs
+%\usepackage{subfig}% http://ctan.org/pkg/subfig
+\usepackage{subcaption}
+%\newsubfloat{figure}% Allow sub-figures
+\usepackage{caption}%lable fig caption as fig
+%\captionsetup[subfigure]{labelfont=bf, justification=raggedright, labelformat=empty} %no caption label
+\usepackage{stackengine} %places caption inside figure?
+\captionsetup{subrefformat=parens} %when you reference the subcaption it will be (a) for example %{labelfont={color=blue}}
+%\captionsetup[subfigure]{labelsep=colon}
+
+
+% \usepackage{acronym}
+% \usepackage{lineno}%for line numbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[backend=biber, giveninits=true, doi=false, isbn=false, natbib=true, url=true, eprint=false, style=authoryear-comp, sorting=nyt, sortcites=ynt, maxcitenames=2, maxbibnames=10, minbibnames = 10, uniquename=false, uniquelist=false, dashed=false]{biblatex} % can change the maxbibnames to cut long author lists to specified length followed by et al., currently set to 99.
+
+%% bibliography for each chapter...
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{#1\isdot} % removes quotes around title
+\renewbibmacro*{volume+number+eid}{%
+	\printfield{volume}%
+	%  \setunit*{\adddot}% DELETED
+	\printfield{number}%
+	\setunit{\space}%
+	\printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+%\renewcommand*{\newunitpunct}{\space} % remove period after date, but I like it. 
+\renewbibmacro{in:}{\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}} % this remove the "In: Journal Name" from articles in the bibliography, which happens with the ynt 
+\renewbibmacro*{note+pages}{%
+	\printfield{note}%
+	\setunit{,\space}% could add punctuation here for after volume
+	\printfield{pages}%
+	\newunit}    
+\DefineBibliographyStrings{english}{% clears the pp from pages
+	page = {\ifbibliography{}{\adddot}},
+	pages = {\ifbibliography{}{\adddot}},
+} 
+\DeclareFieldFormat{journaltitle}{#1\isdot}
+\renewcommand*{\revsdnamepunct}{}%remove comma between last name and first name
+\DeclareNameAlias{sortname}{family-given}
+% \DeclareNameAlias{sortname}{last-first}
+\renewcommand*{\nameyeardelim}{\addspace} % remove comma in text between name and date
+\addbibresource{ABC1.bib} % The filename of the bibliography
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\renewrobustcmd*{\bibinitperiod}{}
+% you'll have to play with the citation styles to resemble the standard in your field, or just leave them as is here. 
+% or, if there is a bst file you like, just get rid of all this biblatex stuff and go back to bibtex. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% generally hyperref needs to be loaded last
+\usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=darkbrown]{hyperref}
+%\usepackage[hidelinks,colorlinks=false,citecolor=blue,urlcolor=darkbrown]{hyperref}
+\tikzexternalize
+
+\lhead{Type 1 Diabetes Review} %This needs to change
+\rhead{Bianca Flaim, Oluwalonimi Ayekun, and Alexander Turco}
+\title{\sc Examining the Molecular Basis of Type 1 Diabetes}
+\author{\sc Bianca Flaim, Oluwalonimi Ayekun, and Alexander Turco}
+
+\providecommand{\figref}[1]{(Figure \ref{#1})}  %what?
+\providecommand{\tabref}[1]{(Table \ref{#1})}  %what?
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\newcommand{\seg}{\texttt{Seg}\xspace}
+\newcommand{\ecoli}{\mbox{\textit{E.\,coli}}\xspace}
+\newcommand{\sclong}{\textit{Saccharomyces cerevisiae}\xspace}
+\newcommand{\scshrt}{\mbox{\textit{S.\,cerevisiae}}\xspace}
+\newcommand{\sce}{\mbox{\textit{S.\,cerevisiae}}\xspace}
+\newcommand{\hslong}{\textit{Homo sapiens}\xspace}
+\newcommand{\hsshrt}{\mbox{\textit{H.\,sapiens}}\xspace}
+\newcommand{\hse}{\mbox{\textit{H.\,sapiens}}\xspace}
+\newcommand{\celong}{\textit{Caenorhabditis elegans}\xspace}
+\newcommand{\ceshrt}{\mbox{\textit{C.\,elegans}}\xspace}
+\newcommand{\dmlong}{\textit{Drosophila melanogaster}\xspace}
+\newcommand{\dmshrt}{\mbox{\textit{D.\,melanogaster}}\xspace}
+\newcommand{\atlong}{\textit{Arabidopsis thaliana}\xspace}
+\newcommand{\atshrt}{\mbox{\textit{A.\,thaliana}}\xspace}
+\newcommand{\pflong}{\textit{Plasmodium falciparum}\xspace}
+\newcommand{\pfshrt}{\mbox{\textit{P.\,falciparum}}\xspace}
+
+%%%%BIBLIOGRAPHY
+
+%Supplementary File Table Numbers:
+\newcommand{\expdata}{S1\xspace}
+\newcommand{\seqdata}{S2\xspace}
+\newcommand{\protdata}{S3\xspace}
+\newcommand{\blast}{S4\xspace}
+\newcommand{\tabvar}{S5\xspace}
+%Supplementary File Fig Numbers:
+
+\newcommand{\expcor}{S1\xspace}
+\newcommand{\expdistATCC}{S3\xspace}
+\newcommand{\specialcell}[2][c]{%
+	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\beginsupplement}{%
+	\setcounter{table}{0}
+	\renewcommand{\thetable}{S\arabic{table}}%    %thetable references table counter 
+	\setcounter{figure}{0}
+	\renewcommand{\thefigure}{S\arabic{figure}}%
+	\setcounter{equation}{0}
+	\renewcommand{\theequation}{S\arabic{equation}}%
+
+}
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsubsection}{}
+\usepackage{setspace}
+%adjust spacing
+\doublespacing
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 2pt minus 2pt}{0pt plus 1pt minus 1pt}
+\titlespacing\subsection{0pt}{12pt plus 2pt minus 2pt}{0pt plus 1pt minus 1pt}
+\titlespacing\subsubsection{0pt}{12pt plus 2pt minus 2pt}{0pt plus 1pt minus 1pt}
+
+% below 3 lines will put ALL table captions at the top...not sure if
+% this is what we want but it is good enough for now
+
+% \usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+        \definecolor{atomictangerine}{rgb}{1.0, 0.6, 0.4}
+        \definecolor{darkbrown}{rgb}{1.0, 0.56, 0.24}
+        \colorlet{darkcol}{black!30!white}
+        \colorlet{lightcol}{black!10!white}
+        \definecolor{txtcol}{HTML}{F40000}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\widowpenalty10000
+\clubpenalty10000
+
+%\linenumbers %for line numbers
+\onecolumn
+%\twocolumn[  
+%       \begin{@twocolumnfalse}
+%               \begin{center}
+                        \maketitle
+%               \end{center}
+%                       \bigskip
+
+\thispagestyle{empty}
+\noindent \textsuperscript{1} Department of Biology, McMaster University, Hamilton, ON, Canada
+
+\newpage
+\tableofcontents
+\newpage
+       
+
+\section{Literature Review/Proposal}
+
+\subsection{What is Type 1 Diabetes?}
+Over the last 70 years, developed countries around the world have seen a steady increase in the incidence of type 1
+diabetes (T1D) (Patterson et al. 2012; Todd 2010). It is generally thought that T1D is due to the immune-mediated destruction of
+pancreatic $\beta$-cells which are responsible for the production of insulin (Atkinson, G S Eisenbarth, and Michels 2014; Todd 2010).
+Autoantibodies specifically targeting $\beta$-cells, as well as macrophage and lymphocyte infiltration of the pancreas are responsible
+for the destruction of insulin-producing $\beta$-cells (Van den Driessche et al. 2009). These $\beta$-cells are found within the islets of Langerhans and they have the ability to sense glucose and subsequently release insulin to maintain healthy blood-glucose levels (Bluestone, Herold, and G Eisenbarth 2010). Although it is known to be a common chronic disease in children, diagnosis of
+T1D can occur at any age (Atkinson, G S Eisenbarth, and Michels 2014). Symptoms associated with disease onset, especially in
+children and adolescents, are typically polydispia (extreme thirst), polyphagia (extreme hunger), polyuria (excessive urination),
+and hyperglycaemia (high blood sugar) (Atkinson, G S Eisenbarth, and Michels 2014). Research surrounding T1D tends to
+revolve around the search for environmental triggers, as well as genetic factors which contribute to the disease (Todd 2010).
+Rapid advancements in both molecular biology and genetic sequencing methods have contributed to an increase in papers which
+examine the genetic basis of the disease. It is believed that the nature component (genetic factors, molecules, cells) of T1D will
+provide insight into disease mechanisms, and at the same time help researchers to identify environmental factors which play a
+role in the development of the disease (Todd 2010).
+
+
+\subsection{Insulin Hormone Production and Release}
+The insulin hormone is a peptide hormone encoded on INS gene, found on chromosome 11 (cluster p15.5) (Ohneda,
+Ee, and German 2000; Tokarz, MacDonald, and Klip 2018). Gene expression is regulated by several enhancer elements found
+upstream of the INS gene, including IDX1, MafA, NeuroD1 (Tokarz, MacDonald, and Klip 2018). As insulin is a key hormone
+involved in the feedback loop to establish blood glucose homeostasis, glucose levels also influence insulin production (Ohneda,
+Ee, and German 2000; Vranic, Hollenberg, and Steiner 1985). Transcription from the INS gene yields a preproinsulin mRNA
+molecule, which exits the $\beta$-cell’s nucleus and is translated by ribosomes situated within the rough endoplasmic reticulum
+(RER) to produce a preproinsulin polypeptide (Tokarz, MacDonald, and Klip 2018). After translation, a series of posttrans-
+lational modifications are required, beginning with removal of the signal sequence within the RER (Tokarz, MacDonald, and
+Klip 2018). Signal removal allows polypeptide (now proinsulin) trafficking to the trans-Golgi network, where the C-peptide
+is proteolytically cleaved by the prohormone convertases PC1/3 and PC2 (Klimek et al. 2009; Tokarz, MacDonald, and Klip
+2018). Proinsulin is then appropriately folded and stabilized through the formation of disulfide bonds, yielding a mature insulin
+protein (Mathieu, Gillard, and Benhalima 2017; Tokarz, MacDonald, and Klip 2018). Insulin is then packaged into granules
+and trafficked along the cell’s actin microtubule network where they are stored within the $\beta$-cell’s plasma membrane, prepared
+for secretion once the cell receives the appropriate signal to release insulin (Tokarz, MacDonald, and Klip 2018).
+
+Glucose entry in the $\beta$-cell triggers a cascade of intracellular events which terminates in insulin release. Once blood glu-
+cose rises typically above 100 mg/dL, glucose begins to enter the $\beta$-cell’s cytoplasm via membrane GLUT1 channels (Tokarz,
+MacDonald, and Klip 2018; Vranic, Hollenberg, and Steiner 1985). Glucokinase then phosphorylates the glucose, trapping it
+within the cell and beginning the process of glycolysis, resulting in the production of adenosine triphosphate (ATP) and pyru-
+vate (Tokarz, MacDonald, and Klip 2018). Pyruvate then undergoes subsequent metabolic steps, including entering the Krebs
+cycle and the electron transport chain within the mitochondria, resulting in the production of lots of ATP. Within the cytoplasm,
+the increased ATP/adenosine diphosphate (ADP) ratio is detected, resulting in the closure of ATP-sensitive K+ ion channels
+(Tokarz, MacDonald, and Klip 2018). Since the potassium ions ca no longer flow out of the cell, the closure of these channels
+results in a more positive membrane potential, leading to depolarization of the cell once the membrane potential reaches –50
+millivolts (mV) (Tokarz, MacDonald, and Klip 2018). Depolarization of the cell activates voltage-dependent Na+ and Ca2+
+channels, allowing the influx of sodium and calcium ions, further increasing membrane potential (Tokarz, MacDonald, and Klip
+2018). The influx of calcium ions triggers SNARE proteins, Munc18, and syntaxin proteins to initiate insulin vesicle fusion and
+release into the bloodstream (Tokarz, MacDonald, and Klip 2018). As insulin is released and plasma glucose levels begin to
+drop, the signal is terminated as the SERCA pump removes calcium ions from the $\beta$-cell’s cytoplasm (Tokarz, MacDonald, and
+Klip 2018). Additionally, the signal is terminated as granule exocytosis requires ATP hydrolysis, thus reducing the cytosolic
+ATP:ADP ratio, and triggering the reopening of ATP-sensitive K+ channels (Tokarz, MacDonald, and Klip 2018). Allowing
+potassium ions to flow out of the cell reduces the membrane potential, resulting in the closure of voltage-gated Na+ and Ca2+
+channels. The process of insulin release has been described as a biphasic process, with an initial burst as the cell initially depo-
+larizes and releases all primed insulin granules within the cell membrane, and a second, prolonged phase as the cell’s network
+reorganizes itself to recruit more insulin granules to the plasma membrane for subsequent exocytosis (Tokarz, MacDonald,
+and Klip 2018). Within an islet of Langerhans, which contains many $\beta$-cells, which are connected by gap junctions, allowing
+rapid paracellular cell-to-cell communication, and resulting in a large, rapid, release of insulin from the pancreas when needed
+(In’t Veld and Marichal 2010; Tokarz, MacDonald, and Klip 2018).
+
+
+\subsection{Insulin-Insulin Receptor Binding Mediated Glucose Storage and Uptake}
+Insulin binds to the insulin receptor (IR) expressed on the cell membrane of its target cells. The IR is a disulphide-linked
+receptor tyrosine kinase homodimer comprised of two $\alpha$-subunits and two $\beta$-subunits. After insulin binding, the IR undergoes a conformational change bringing the two IR monomers closer and allowing for autophosphorylation (De Meyts 2016). During
+autophosphorylation, each IR monomer adds a phosphate group to the $\beta$-unit of the other IR monomer resulting in the activation
+of the IR receptor. Once activated, the IR becomes capable of activating and binding to the adaptor protein insulin-receptor
+substrate 1 (IRS-1). IRS-1 acts as a docking site for proteins with Src-homology-2 domains, such as the p85 subunit of PI
+(3)K which helps facilitate the recruitment PI (3)K to the plasma membrane (Lizcano and Alessi 2002; Sun et al. 1991). Upon
+being recruited to the plasma membrane, PI (3)K catalyzes the conversion of phosphatidylinositol (4,5)-biphosphate (PI (4,5)
+P2) into phosphatidylinositol (3,4,5) triphosphate (PI (3,4,5) P3). PI (3,4,5) P3 can phosphorylate the AKT (also known as
+protein kinase B) (Sun et al. 1991). The increased concentration of PI (3,4,5) P3 molecules along the cell membrane facilitates
+the recruitment of AKT to the plasma membrane. Once at the plasma membrane, AKT is phosphorylated by two other protein
+kinases, PDK1 at residue Thre308 and MTORC at residue Ser473. The phosphorylation of the protein at these two residues
+allows for its activation (Leto and Saltiel 2012; Menting et al. 2013). Upon its activation, AKT dissociates from the membrane
+and begins to interact with number of different effector proteins within the cytosol and nucleus, including GSK3 (Lizcano and
+Alessi 2002). GSK3 is a serine/threonine protein kinase that can inhibit the activity of glycogen synthase, a key enzyme in the
+process of glycogenesis. When AKT phosphorylates GSK3 it inhibits the activity of this kinase, therefore increasing glycogen
+synthase and the rate of glucose-to-glycogen conversion. This is how insulin increases glucose storage inside of muscle and fat
+cells.
+
+In addition to glucose storage, insulin also helps facilitate the process of GLUT-4 translocation to the cell membrane
+in muscle and adipose (fat) cells. GLUT-4 is one of the several GLUT proteins responsible for transporting glucose across
+the blood vessel into cells in the human body (Li et al. 2019). When insulin is not bound to the IR, about 80% of GLUT-4
+remains sequestered in specialized, intracellular organelles known as GLUT-4 storage vesicles (GSVs) while the other 20%
+cycle slowly between the GSVs and plasma membrane (Fazakerley, Koumanov, and Holman 2022). Within 5-10 minutes of
+insulin-mediated intracellular signalling, the number of GLUT-4 receptors expressed along the surface of adipose and fat cells
+increases by over 50% (Fazakerley, Koumanov, and Holman 2022; Stöckli, Fazakerley, and James 2011). Insulin increases
+the amount of GLUT-4 at the plasma membrane primarily by promoting the fusion of GSVs with the plasma membrane (also
+known as GSVs exocytosis) (Leto and Saltiel 2012). Like with glucose storage, AKT acts as a central mediator of this process
+through its intracellular interactions with several important molecules and proteins involved in GSVs exocytosis. For instance,
+AKT is capable of phosphorylating both RAB-GAP AS160 (also referred to asTBC1D4) and the RAL-GAP complex, each of
+which have important roles in GLUT-4 vesicle trafficking and targeting to the plasma membrane (De Meyts 2016; Leto and
+Saltiel 2012). Along with RAB-GAP AS160 and the RAL-GAP complex, AKT has also been shown to interact with SNARE
+regulatory proteins, SYNIP and CDP138, which are necessary for the fusion of GSVs to the plasma membrane.
+
+In addition to the PI (3)K-AKT pathway, however, insulin is also capable of promoting GLUT-4 translocation via another
+intracellular signalling pathway. This pathway is mediated by the adaptor protein APS, which binds with high affinity to
+the insulin-receptor (Yu et al. 2007). After APS is phosphorylated by the IR, it recruits a complex consisting of the proto-
+oncogene c-CBL and the-CBL associated protein (CAP) facilitating the IR-catalyzed Tyr phosphorylation of c-CBL. Following
+phosphorylation by the IR, c-CBL becomes capable of interacting with the adaptor protein CRK which is bound to the GEF
+(Guanine-Exchange-Factor) C3G. This interaction allows C3G to initiate the activation of TC10, an RHO-family GTP-Ase,
+localized in the lipid rafts of the plasma membrane (Leto and Saltiel 2012). TC10 is then able to interact with its’ effector
+protein called PIST 1, which then binds to and directs the cleavage of the protein TUG. In basal conditions (under low insulin
+concentration), TUG binds to GLUT-4 in GSVs preventing the trafficking of these GSVs, and thus GLUT-4 translocation, to the
+plasma membrane. Insulin-induced cleavage of the TUG protein stimulates the dissociation of protein from GLUT-4 enabling
+the trafficking of GSVs to the plasma membrane (Li et al. 2019; Yu et al. 2007). In the absence of this step, GSVs regulated
+trafficking and GLUT-4 translocation is inhibited in adipocyte cells (Chang, Chiang, and Saltiel 2004). In addition to facilitating
+the cleavage of TUG, TC10 also interacts with the protein EXO70 which belongs to the exocyst complex and is involved in the
+docking of secretory vesicles to the plasma membrane.
+
+\subsection{Type 1 Diabetes Symptom Pathophysiology and Possible Complications}
+T1D is said to proceed in 3 phases – two presymptomatic phases, followed by a symptomatic phase that increases in
+severity as the disease progresses (Katsarou et al. 2017; Norris, Johnson, and Stene 2020). The first phase is characterized
+by initial immune infiltration of the pancreas by macrophages, dendritic cells, CD8+ and CD4+ T-cells, and autoantibodies
+specific against $\beta$-cells, resulting in the rapid loss of functional $\beta$-cells (Katsarou et al. 2017). This stage is followed by the initial development of hyperglycemia, which may present as asymptomatic at first as the pancreas retains some functionality (Katsarou et al. 2017). As immune destruction continues, $\beta$-cell functionality dramatically decreases, resulting in more severe hyperglycemia and the development of symptoms (Katsarou et al. 2017). Primary symptoms include polyuria, polydipsia, and polyphagia (R A Guthrie and D W Guthrie 2004). As glucose accumulates within the bloodstream, the kidneys attempt to
+rectify the imbalance by excreting more glucose in the urine (R A Guthrie and D W Guthrie 2004). As the nephron excretes
+glucose into the urine, water follows from the bloodstream into the urine, resulting in a greater volume of urine and the primary
+symptom of polyuria (R A Guthrie and D W Guthrie 2004). Increased urination in attempts to reduce blood glucose results
+in dehydration, so this causes the polydipsia as the body’s mechanism to increase water intake and restore hydration and
+water homeostasis (R A Guthrie and D W Guthrie 2004). The final primary symptom, polyphagia, is increased hunger due to
+reduced fuel available to cells (R A Guthrie and D W Guthrie 2004). Primary complications include nephropathy, neuropathy,
+retinopathy, risk of cardiovascular disease and peripheral artery disease, and risk of cerebrovascular disease (Katsarou et al.
+2017; McGill and Levitsky 2016; Melendez-Ramirez, Richards, and Cefalu 2010; Wherrett et al. 2018). These conditions
+are largely related to the severity and length of hyperglycemic exposure, especially due to the increased stress on the kidneys
+due to increased glucose excretion. As hyperglycemia exposure increases, this can increase the risk of albuminuria, which
+may progress to complete nephropathy (Melendez-Ramirez, Richards, and Cefalu 2010). Neuropathy may arise in the case of
+hypoglycemia (in instances where too much insulin is injected), as the brain primarily relies on glucose as its fuel source, and
+reduced glucose delivery to the brain may result in neuronal death and possible cognitive impairments and deficits (Katsarou
+et al. 2017). Hyperglycemia is also linked to the production of microaneurysms in blood vessels feeding the retina, leading
+to possible retinopathy and fluid leakage resulting in macular edema (Melendez-Ramirez, Richards, and Cefalu 2010). Lastly,
+hyperglycemia can trigger a severe complication known as diabetic ketoacidosis (DKA). Hyperglycemia causes the production
+of ketones as an alternate source of fuel when insulin is critically low, and cells cannot access glucose (Cashen and Petersen
+2019). In this case, ketogenesis begins, and can result in the acidification of the blood, and can also result in cerebral edema
+and hypokalemia which can become fatal in severe cases (Cashen and Petersen 2019).
+
+\subsection{Mutations associated with Type 1 Diabetes}
+T1D is a complex disease, meaning it can be influenced by a variety of environmental and genetic risk factors (Brorsson
+et al. 2010). The concordance of T1D among monozygotic and dizygotic twins, as well as numerous studies that have identified
+genes associated with T1D, provide good evidence for a strong genetic determinant of disease (Erlich et al. 2008). For over
+thirty years, it has been known that the human leukocyte antigen (HLA) region on chromosome 6 contributes to the risk of
+developing T1D (Brorsson et al. 2010). The HLA region contains genes which code for proteins that have immune function,
+particularly in the regulation of the immune response (Choo 2007). More specifically, it has been found that certain alleles at
+the HLA-DRB1, HLA-DQA1, and HLA-DQB1 loci are more strongly associated with T1D than others (Erlich et al. 2008).
+Although studies have identified these specific alleles, the consensus remains that more work must be done to further identify
+causative variants and their DNA profile (Brorsson et al. 2010). The complexity of T1D makes it extremely difficult to narrow
+down the cause to one single gene, but there are a very small number of diabetes cases which do in fact result from single
+gene mutations (Yang and Chan 2016). Two major forms of monogenic diabetes are Neonatal diabetes mellitus (NDM) and
+maturity-onset diabetes of the young (MODY) (Yang and Chan 2016). These monogenic forms of diabetes are typically the
+result of mutations in genes which code for proteins that reduce $\beta$-cell function (Steck and Winter 2011). It is interesting to
+note that the single gene mutations found to cause NDM and MODY, have also been found to be associated with T1D (Yang
+and Chan 2016). Two examples of monogenic diabetes genes which have also been found to be associated with T1D are the
+preproinsulin gene (INS), and the Gli-similar 3 gene (GLIS3) (Yang and Chan 2016). The GLIS3 gene codes for a transcription
+factor which regulates islet development and insulin gene transcription, and the INS gene encodes the peptide hormone insulin
+(Steck and Winter 2011; Yang and Chan 2016). Single nucleotide polymorphisms (SNPs) are typically what affect the normal
+function of both genes, but it has also been found that allelic variants of the genes lead to both monogenic diabetes and T1D
+(Yang and Chan 2016).
+
+\subsection{Type 1 Diabetes Treatments and Health Considerations}
+As the $\beta$-cell functionality is destroyed due to immune destruction, functionality cannot be restored. Thus, the standard
+of care involves continuous glucose monitoring and regulation of blood sugar levels via insulin injections (McGill and Levitsky
+2016). Many patients opt for insulin pumps, otherwise known as a closed-loop pancreas system (Wherrett et al. 2018). This
+system is an artificial system that features an insulin pump, and a glucose sensor which can detect when insulin should be
+secreted. Some of these systems may infuse just insulin, others also feature a glucagon pump to increase blood sugar in case
+too much insulin was secreted (Wherrett et al. 2018). Alternatively, patients may opt for standard insulin injections. A key
+component of T1D treatment is patient education on their condition and the body’s natural fluctuations of blood sugar levels
+throughout the day. For example, it is important for patients to understand that prolonged fasting, illness, or intense exercise can
+reduce blood sugar levels and naturally cause a hypoglycemic crisis (McGill and Levitsky 2016). In the event of hypoglycemia,
+it is important to detect as soon as possible and consume a small amount of sugar (15 grams typically recommended, available
+in juice, candies, or glucose gels) (Katsarou et al. 2017). Lifestyle changes such as eating snacks prior to bedtime and exercising
+earlier in the day can be beneficial in preventing nocturnal hypoglycemia (McGill and Levitsky 2016). Due to the number of
+potential complications which may arise from T1D, physicians should also monitor patients for other comorbidities including
+other autoimmune conditions, kidney failure, dyslipidemia, retinopathy, and other hormonal disease (Katsarou et al. 2017).
+Further, patients are encouraged to consult dieticians to develop healthy meal plans to regulate blood sugar levels and join
+community support groups (Katsarou et al. 2017). T1D patients are at increased risk of mental health issues such as anxiety,
+depression, and eating disorders due to the perceived lack of autonomy and increased stress load due to their disease (Katsarou
+et al. 2017).
+
+\clearpage\newpage
+\section{References}
+
+%%%FIGURES%%%%%
+
+%%%%PRINTING BIBLIOGRAPHY%%%%
+\nocite{*}
+\printbibliography[heading=none, sorting=nyt]
+\newpage
+
+
+
+\end{document}
+
+
+

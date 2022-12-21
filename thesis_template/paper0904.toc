@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {}Literature Review/Proposal}{3}{section.1}%
+\contentsline {subsection}{\numberline {}What is Type 1 Diabetes?}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {}Insulin Hormone Production and Release}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {}Insulin-Insulin Receptor Binding Mediated Glucose Storage and Uptake}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {}Type 1 Diabetes Symptom Pathophysiology and Possible Complications}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {}Mutations associated with Type 1 Diabetes}{7}{subsection.1.5}%
+\contentsline {subsection}{\numberline {}Type 1 Diabetes Treatments and Health Considerations}{7}{subsection.1.6}%
+\contentsline {section}{\numberline {}References}{9}{section.2}%
