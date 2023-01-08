@@ -19,1578 +19,317 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{atkinson2014type}{article}{}
-      \name{author}{3}{}{%
-        {{hash=98b669e8eeda0b0ce5dab190219d65ae}{%
-           family={Atkinson},
-           familyi={A\bibinitperiod},
-           given={Mark\bibnamedelima A},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=2993133f16a0a48abdaad80e9ddf331c}{%
-           family={Eisenbarth},
-           familyi={E\bibinitperiod},
-           given={George\bibnamedelima S},
-           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=8fc0880018495a57872764ab5c02082b}{%
-           family={Michels},
-           familyi={M\bibinitperiod},
-           given={Aaron\bibnamedelima W},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{ef3c79904550b0f50301282b096503d8}
-      \strng{fullhash}{24cb5831f77c332556f222fb8cb01093}
-      \strng{bibnamehash}{24cb5831f77c332556f222fb8cb01093}
-      \strng{authorbibnamehash}{24cb5831f77c332556f222fb8cb01093}
-      \strng{authornamehash}{ef3c79904550b0f50301282b096503d8}
-      \strng{authorfullhash}{24cb5831f77c332556f222fb8cb01093}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Lancet}
-      \field{number}{9911}
-      \field{title}{Type 1 diabetes}
-      \field{volume}{383}
-      \field{year}{2014}
-      \true{nocite}
-      \field{pages}{69\bibrangedash 82}
-      \range{pages}{14}
-    \endentry
-    \entry{bluestone2010genetics}{article}{}
-      \name{author}{3}{}{%
-        {{hash=05056e0d6f6609889ed90130b9fc934f}{%
-           family={Bluestone},
+    \entry{ball2012politics}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7eb2c7b8783bbcda785f1b12a2320507}{%
+           family={Ball},
            familyi={B\bibinitperiod},
-           given={Jeffrey\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=8a8948f1be184a523928db472e07dfb8}{%
-           family={Herold},
-           familyi={H\bibinitperiod},
-           given={Kevan},
-           giveni={K\bibinitperiod}}}%
-        {{hash=8412be1445c7ee21bdbd9c4f602a1e9a}{%
-           family={Eisenbarth},
-           familyi={E\bibinitperiod},
-           given={George},
-           giveni={G\bibinitperiod}}}%
+           given={Stephen\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Nature Publishing Group}%
+        {Routledge}%
       }
-      \strng{namehash}{7b66f70a5eb7ef99996becb5b78dfb9c}
-      \strng{fullhash}{ff43d6ea7e4a1d82474367bce0890316}
-      \strng{bibnamehash}{ff43d6ea7e4a1d82474367bce0890316}
-      \strng{authorbibnamehash}{ff43d6ea7e4a1d82474367bce0890316}
-      \strng{authornamehash}{7b66f70a5eb7ef99996becb5b78dfb9c}
-      \strng{authorfullhash}{ff43d6ea7e4a1d82474367bce0890316}
+      \strng{namehash}{7eb2c7b8783bbcda785f1b12a2320507}
+      \strng{fullhash}{7eb2c7b8783bbcda785f1b12a2320507}
+      \strng{bibnamehash}{7eb2c7b8783bbcda785f1b12a2320507}
+      \strng{authorbibnamehash}{7eb2c7b8783bbcda785f1b12a2320507}
+      \strng{authornamehash}{7eb2c7b8783bbcda785f1b12a2320507}
+      \strng{authorfullhash}{7eb2c7b8783bbcda785f1b12a2320507}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{number}{7293}
-      \field{title}{Genetics, pathogenesis and clinical interventions in type 1 diabetes}
-      \field{volume}{464}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{1293\bibrangedash 1300}
-      \range{pages}{8}
+      \field{title}{Politics and policy making in education: Explorations in sociology}
+      \field{year}{2012}
     \endentry
-    \entry{brorsson2010type}{article}{}
+    \entry{fishman2014empowering}{article}{}
       \name{author}{5}{}{%
-        {{hash=185cde7d293ca3734d288831f8ffdc41}{%
-           family={Brorsson},
-           familyi={B\bibinitperiod},
-           given={Caroline},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1efe2ef1e7387ad6d52976ba763a27ac}{%
-           family={Tue\bibnamedelima Hansen},
-           familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-           given={Niclas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=4de5b76f9159c8b7464286b6718e7ba1}{%
-           family={Bergholdt},
-           familyi={B\bibinitperiod},
-           given={Regine},
-           giveni={R\bibinitperiod}}}%
-        {{hash=e729950652828b4825b4dd681158bbdd}{%
-           family={Brunak},
-           familyi={B\bibinitperiod},
-           given={S{ø}ren},
-           giveni={S\bibinitperiod}}}%
-        {{hash=99f84e76fbd85c1d43a0cf7bea9710ce}{%
-           family={Pociot},
-           familyi={P\bibinitperiod},
-           given={Flemming},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Public Library of Science San Francisco, USA}%
-      }
-      \strng{namehash}{f5aec97230f9f625b57e04c301bedda3}
-      \strng{fullhash}{a2b1e707073a2daa537c9e49a1af202e}
-      \strng{bibnamehash}{a2b1e707073a2daa537c9e49a1af202e}
-      \strng{authorbibnamehash}{a2b1e707073a2daa537c9e49a1af202e}
-      \strng{authornamehash}{f5aec97230f9f625b57e04c301bedda3}
-      \strng{authorfullhash}{a2b1e707073a2daa537c9e49a1af202e}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{PLoS One}
-      \field{number}{3}
-      \field{title}{The type 1 diabetes-HLA susceptibility interactome-identification of HLA genotype-specific disease genes for type 1 diabetes}
-      \field{volume}{5}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{e9576}
-      \range{pages}{-1}
-    \endentry
-    \entry{cashen2019diabetic}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9cc8934f34f063d4956dd27d473dc334}{%
-           family={Cashen},
-           familyi={C\bibinitperiod},
-           given={Katherine},
-           giveni={K\bibinitperiod}}}%
-        {{hash=61fb91b12db5bad2e08282b2e1b1919e}{%
-           family={Petersen},
-           familyi={P\bibinitperiod},
-           given={Tara},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Academy of Pediatrics}%
-      }
-      \strng{namehash}{2aad2001a2b19ba900f95570a25ddf5f}
-      \strng{fullhash}{2aad2001a2b19ba900f95570a25ddf5f}
-      \strng{bibnamehash}{2aad2001a2b19ba900f95570a25ddf5f}
-      \strng{authorbibnamehash}{2aad2001a2b19ba900f95570a25ddf5f}
-      \strng{authornamehash}{2aad2001a2b19ba900f95570a25ddf5f}
-      \strng{authorfullhash}{2aad2001a2b19ba900f95570a25ddf5f}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pediatrics in Review}
-      \field{number}{8}
-      \field{title}{Diabetic ketoacidosis}
-      \field{volume}{40}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{412\bibrangedash 420}
-      \range{pages}{9}
-    \endentry
-    \entry{chang2004insulin}{article}{}
-      \name{author}{3}{}{%
-        {{hash=bc475b8ddc53348f833fd50ff3ff6dbc}{%
-           family={Chang},
-           familyi={C\bibinitperiod},
-           given={Louise},
-           giveni={L\bibinitperiod}}}%
-        {{hash=a745680f5b149be6d87cc9486650ca03}{%
-           family={Chiang},
-           familyi={C\bibinitperiod},
-           given={Shian-Huey},
-           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=11712a8e7c598d31c24448a1a6251cc7}{%
-           family={Saltiel},
-           familyi={S\bibinitperiod},
-           given={Alan\bibnamedelima R},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{626381a2d2dfa4f059af60bf6d0a601e}
-      \strng{fullhash}{59666ebd22986660b76ce512d4feee3f}
-      \strng{bibnamehash}{59666ebd22986660b76ce512d4feee3f}
-      \strng{authorbibnamehash}{59666ebd22986660b76ce512d4feee3f}
-      \strng{authornamehash}{626381a2d2dfa4f059af60bf6d0a601e}
-      \strng{authorfullhash}{59666ebd22986660b76ce512d4feee3f}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Molecular medicine}
-      \field{number}{7}
-      \field{title}{Insulin signaling and the regulation of glucose transport}
-      \field{volume}{10}
-      \field{year}{2004}
-      \true{nocite}
-      \field{pages}{65\bibrangedash 71}
-      \range{pages}{7}
-    \endentry
-    \entry{choo2007hla}{article}{}
-      \name{author}{1}{}{%
-        {{hash=1998d18e97f0ee7603aed91b31158d07}{%
-           family={Choo},
-           familyi={C\bibinitperiod},
-           given={Sung\bibnamedelima Yoon},
-           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Yonsei University College of Medicine}%
-      }
-      \strng{namehash}{1998d18e97f0ee7603aed91b31158d07}
-      \strng{fullhash}{1998d18e97f0ee7603aed91b31158d07}
-      \strng{bibnamehash}{1998d18e97f0ee7603aed91b31158d07}
-      \strng{authorbibnamehash}{1998d18e97f0ee7603aed91b31158d07}
-      \strng{authornamehash}{1998d18e97f0ee7603aed91b31158d07}
-      \strng{authorfullhash}{1998d18e97f0ee7603aed91b31158d07}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Yonsei medical journal}
-      \field{number}{1}
-      \field{title}{The HLA system: genetics, immunology, clinical testing, and clinical implications}
-      \field{volume}{48}
-      \field{year}{2007}
-      \true{nocite}
-      \field{pages}{11\bibrangedash 23}
-      \range{pages}{13}
-    \endentry
-    \entry{de2016insulin}{article}{}
-      \name{author}{1}{}{%
-        {{hash=1b4d8128005722769aeb6c93402ad3ba}{%
-           family={De\bibnamedelima Meyts},
-           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Pierre},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {MDText. com, Inc.}%
-      }
-      \strng{namehash}{1b4d8128005722769aeb6c93402ad3ba}
-      \strng{fullhash}{1b4d8128005722769aeb6c93402ad3ba}
-      \strng{bibnamehash}{1b4d8128005722769aeb6c93402ad3ba}
-      \strng{authorbibnamehash}{1b4d8128005722769aeb6c93402ad3ba}
-      \strng{authornamehash}{1b4d8128005722769aeb6c93402ad3ba}
-      \strng{authorfullhash}{1b4d8128005722769aeb6c93402ad3ba}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Endotext [Internet]}
-      \field{title}{The insulin receptor and its signal transduction network}
-      \field{year}{2016}
-      \true{nocite}
-    \endentry
-    \entry{erlich2008hla}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=9abfcee52ff41e8ae9e5ed0cf046cc62}{%
-           family={Erlich},
-           familyi={E\bibinitperiod},
-           given={Henry},
-           giveni={H\bibinitperiod}}}%
-        {{hash=736354d68efbfbb571536943694b512d}{%
-           family={Valdes},
-           familyi={V\bibinitperiod},
-           given={Ana\bibnamedelima Maria},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=b7e9d6006504d52de12c601299d89221}{%
-           family={Noble},
-           familyi={N\bibinitperiod},
-           given={Janelle},
-           giveni={J\bibinitperiod}}}%
-        {{hash=75f7e7aa3d6af16c0c7f968731712655}{%
-           family={Carlson},
-           familyi={C\bibinitperiod},
-           given={Joyce\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=13fcb083edf88a9c595fc7c8820f8b21}{%
-           family={Varney},
-           familyi={V\bibinitperiod},
-           given={Mike},
+        {{hash=b7dd4b4e9d20ecd772bf0bef70455b28}{%
+           family={Fishman},
+           familyi={F\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ce1d65549aae132416b10483ff4f4031}{%
+           family={Riconscente},
+           familyi={R\bibinitperiod},
+           given={M},
            giveni={M\bibinitperiod}}}%
-        {{hash=f1e1a5e2aa2baa6eab73367866399739}{%
-           family={Concannon},
-           familyi={C\bibinitperiod},
-           given={Pat},
-           giveni={P\bibinitperiod}}}%
-        {{hash=fde5c2ab89d45efeac892d14dbaf5196}{%
-           family={Mychaleckyj},
-           familyi={M\bibinitperiod},
-           given={Josyf\bibnamedelima C},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=15786612d8a970bf05fab391a99b0962}{%
-           family={Todd},
+        {{hash=582a83128ccb93f62c4d00f4e4366501}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f28d0504cebacca763b1026e073c088b}{%
+           family={Tsai},
            familyi={T\bibinitperiod},
-           given={John\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=2f7058c0992769fb09f78ea07f3a4f10}{%
-           family={Bonella},
-           familyi={B\bibinitperiod},
-           given={Persia},
-           giveni={P\bibinitperiod}}}%
-        {{hash=0c0548d66dc63f9cbb3f90fbde94ef2a}{%
-           family={Fear},
-           familyi={F\bibinitperiod},
-           given={Anna\bibnamedelima Lisa},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=986ee6ee06f56e28e9c4ec87b3b9e848}{%
+           family={Plass},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Am Diabetes Assoc}%
-      }
-      \strng{namehash}{b35f6d4b912557b893b6731a6751e6e4}
-      \strng{fullhash}{9caecf61449eed76cd14ab19605ff0d2}
-      \strng{bibnamehash}{9caecf61449eed76cd14ab19605ff0d2}
-      \strng{authorbibnamehash}{9caecf61449eed76cd14ab19605ff0d2}
-      \strng{authornamehash}{b35f6d4b912557b893b6731a6751e6e4}
-      \strng{authorfullhash}{9caecf61449eed76cd14ab19605ff0d2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Diabetes}
-      \field{number}{4}
-      \field{title}{HLA DR-DQ haplotypes and genotypes and type 1 diabetes risk: analysis of the type 1 diabetes genetics consortium families}
-      \field{volume}{57}
-      \field{year}{2008}
-      \true{nocite}
-      \field{pages}{1084\bibrangedash 1092}
-      \range{pages}{9}
-    \endentry
-    \entry{fazakerley2022glut4}{article}{}
-      \name{author}{3}{}{%
-        {{hash=d151b7d16f0b4fc7f2df65f6d35e093d}{%
-           family={Fazakerley},
-           familyi={F\bibinitperiod},
-           given={Daniel\bibnamedelima J},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=f5f447770468111380f9f52f90fe150b}{%
-           family={Koumanov},
-           familyi={K\bibinitperiod},
-           given={Francoise},
-           giveni={F\bibinitperiod}}}%
-        {{hash=aa7453199c22c4a1fad4fcb7b5364f19}{%
-           family={Holman},
-           familyi={H\bibinitperiod},
-           given={Geoffrey\bibnamedelima D},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Portland Press Ltd.}%
-      }
-      \strng{namehash}{897ba681d489ef4cdc498b37417ff311}
-      \strng{fullhash}{66914daa76d61f8b0ed6ae0582383dcb}
-      \strng{bibnamehash}{66914daa76d61f8b0ed6ae0582383dcb}
-      \strng{authorbibnamehash}{66914daa76d61f8b0ed6ae0582383dcb}
-      \strng{authornamehash}{897ba681d489ef4cdc498b37417ff311}
-      \strng{authorfullhash}{66914daa76d61f8b0ed6ae0582383dcb}
+      \strng{namehash}{6694232029e1a4d46bd143ee1de2e2b3}
+      \strng{fullhash}{6d60ab1e05081591b4e742e769256858}
+      \strng{bibnamehash}{6d60ab1e05081591b4e742e769256858}
+      \strng{authorbibnamehash}{6d60ab1e05081591b4e742e769256858}
+      \strng{authornamehash}{6694232029e1a4d46bd143ee1de2e2b3}
+      \strng{authorfullhash}{6d60ab1e05081591b4e742e769256858}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Biochemical Journal}
-      \field{number}{3}
-      \field{title}{GLUT4 On the move}
-      \field{volume}{479}
-      \field{year}{2022}
+      \field{journaltitle}{Ann Arbor, MI: University of Michigan. Retrieved from http://gamesandlearning. umich. edu/agames}
+      \field{title}{Empowering educators: Supporting student progress in the classroom with digital games}
+      \field{year}{2014}
       \true{nocite}
-      \field{pages}{445\bibrangedash 462}
-      \range{pages}{18}
     \endentry
-    \entry{guthrie2004pathophysiology}{article}{}
+    \entry{foster2020principles}{article}{}
       \name{author}{2}{}{%
-        {{hash=a259a336ff73c5582bd3cdc410b3ad89}{%
-           family={Guthrie},
-           familyi={G\bibinitperiod},
-           given={Richard\bibnamedelima A},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=c682ab2908d24132753208436befed3c}{%
-           family={Guthrie},
-           familyi={G\bibinitperiod},
-           given={Diana\bibnamedelima W},
-           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=71c7dcb5f4e5f176f191dab40d59714c}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Aroutis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1171fbfadc13cc26cd074dcdb71c063f}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Mamta},
+           giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {LWW}%
+        {Taylor \& Francis}%
       }
-      \strng{namehash}{e5136514a65de9f3d6e393aee573989e}
-      \strng{fullhash}{e5136514a65de9f3d6e393aee573989e}
-      \strng{bibnamehash}{e5136514a65de9f3d6e393aee573989e}
-      \strng{authorbibnamehash}{e5136514a65de9f3d6e393aee573989e}
-      \strng{authornamehash}{e5136514a65de9f3d6e393aee573989e}
-      \strng{authorfullhash}{e5136514a65de9f3d6e393aee573989e}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \strng{namehash}{a8d3fdc7031d99db39db5a70edfa2566}
+      \strng{fullhash}{a8d3fdc7031d99db39db5a70edfa2566}
+      \strng{bibnamehash}{a8d3fdc7031d99db39db5a70edfa2566}
+      \strng{authorbibnamehash}{a8d3fdc7031d99db39db5a70edfa2566}
+      \strng{authornamehash}{a8d3fdc7031d99db39db5a70edfa2566}
+      \strng{authorfullhash}{a8d3fdc7031d99db39db5a70edfa2566}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Critical care nursing quarterly}
+      \field{journaltitle}{Journal of Digital Learning in Teacher Education}
       \field{number}{2}
-      \field{title}{Pathophysiology of diabetes mellitus}
-      \field{volume}{27}
-      \field{year}{2004}
-      \true{nocite}
-      \field{pages}{113\bibrangedash 125}
-      \range{pages}{13}
-    \endentry
-    \entry{in2010microscopic}{article}{}
-      \name{author}{2}{}{%
-        {{hash=c3e424d9995eaf0678c135c2e2cea4c1}{%
-           family={In’t\bibnamedelima Veld},
-           familyi={I\bibinitperiod\bibinitdelim V\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=61e4166402737039d0ba63ac9344497d}{%
-           family={Marichal},
-           familyi={M\bibinitperiod},
-           given={Miriam},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{cecbf1cc33ec504988631f43ad5726f6}
-      \strng{fullhash}{cecbf1cc33ec504988631f43ad5726f6}
-      \strng{bibnamehash}{cecbf1cc33ec504988631f43ad5726f6}
-      \strng{authorbibnamehash}{cecbf1cc33ec504988631f43ad5726f6}
-      \strng{authornamehash}{cecbf1cc33ec504988631f43ad5726f6}
-      \strng{authorfullhash}{cecbf1cc33ec504988631f43ad5726f6}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The islets of Langerhans}
-      \field{title}{Microscopic anatomy of the human islet of Langerhans}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 19}
-      \range{pages}{19}
-    \endentry
-    \entry{katsarou2017type}{article}{}
-      \name{author}{9}{}{%
-        {{hash=678b83acde2929682908b1dc6d6bc5c3}{%
-           family={Katsarou},
-           familyi={K\bibinitperiod},
-           given={Anastasia},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6752192f5bece012eeacdacf6ae034f4}{%
-           family={Gudbjörnsdottir},
-           familyi={G\bibinitperiod},
-           given={Soffia},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a01e341dcf56004702873d7edccfa6b1}{%
-           family={Rawshani},
-           familyi={R\bibinitperiod},
-           given={Araz},
-           giveni={A\bibinitperiod}}}%
-        {{hash=86883291b305bb10c1be567e23e6fdaf}{%
-           family={Dabelea},
-           familyi={D\bibinitperiod},
-           given={Dana},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3ef0d5405211d13999a0a1700af7661c}{%
-           family={Bonifacio},
-           familyi={B\bibinitperiod},
-           given={Ezio},
-           giveni={E\bibinitperiod}}}%
-        {{hash=da7525f343d8f2f890d8832797ed0ebc}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={Barbara\bibnamedelima J},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=9a2c5de17c95d13f1c2b215837a41395}{%
-           family={Jacobsen},
-           familyi={J\bibinitperiod},
-           given={Laura\bibnamedelima M},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=80f620bed531ddea61408cbd4fab58a3}{%
-           family={Schatz},
-           familyi={S\bibinitperiod},
-           given={Desmond\bibnamedelima A},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=1f28d14e3614ceb6c3e6e8859e72b2d5}{%
-           family={Lernmark},
-           familyi={L\bibinitperiod},
-           given={{Å}ke},
-           giveni={Å\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{b25d6f3798a97dc16fb40ba4ea6da368}
-      \strng{fullhash}{b888617b583e9888812dedfee554609f}
-      \strng{bibnamehash}{b888617b583e9888812dedfee554609f}
-      \strng{authorbibnamehash}{b888617b583e9888812dedfee554609f}
-      \strng{authornamehash}{b25d6f3798a97dc16fb40ba4ea6da368}
-      \strng{authorfullhash}{b888617b583e9888812dedfee554609f}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature reviews Disease primers}
-      \field{number}{1}
-      \field{title}{Type 1 diabetes mellitus}
-      \field{volume}{3}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 17}
-      \range{pages}{17}
-    \endentry
-    \entry{klimek2009impaired}{article}{}
-      \name{author}{10}{}{%
-        {{hash=b5be680b4192871d0ad6480f80fa172c}{%
-           family={Klimek},
-           familyi={K\bibinitperiod},
-           given={AM},
-           giveni={A\bibinitperiod}}}%
-        {{hash=420d9a987abe234054508258c5a963c7}{%
-           family={Soukhatcheva},
-           familyi={S\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-        {{hash=6e8237ec5d708e2bc9d23660e4c4d0d2}{%
-           family={Thompson},
-           familyi={T\bibinitperiod},
-           given={DM},
-           giveni={D\bibinitperiod}}}%
-        {{hash=fabd2ad9397c6d2b59b4cdf50d6f14da}{%
-           family={Warnock},
-           familyi={W\bibinitperiod},
-           given={GL},
-           giveni={G\bibinitperiod}}}%
-        {{hash=29e725270e71dc25762ba1b33e7cd197}{%
-           family={Salehi},
-           familyi={S\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f88929104ac86a268647108bd41d4965}{%
-           family={Rilo},
-           familyi={R\bibinitperiod},
-           given={H},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d63a020784d59402894f3beb6d19d2c6}{%
-           family={D’Alessio},
-           familyi={D\bibinitperiod},
-           given={D},
-           giveni={D\bibinitperiod}}}%
-        {{hash=b66fb54af91174d8f696af66150b09bc}{%
-           family={Meneilly},
-           familyi={M\bibinitperiod},
-           given={GS},
-           giveni={G\bibinitperiod}}}%
-        {{hash=c55bae39f2507744aba44d78b612d2e6}{%
-           family={Panagiotopoulos},
-           familyi={P\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod}}}%
-        {{hash=e7b5ec1d90e1dc203f270a69bd12f970}{%
-           family={Verchere},
-           familyi={V\bibinitperiod},
-           given={CB},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{410b374d312619f7be22b500fd476338}
-      \strng{fullhash}{5e3352a94731ae5c44a1e071227199a3}
-      \strng{bibnamehash}{5e3352a94731ae5c44a1e071227199a3}
-      \strng{authorbibnamehash}{5e3352a94731ae5c44a1e071227199a3}
-      \strng{authornamehash}{410b374d312619f7be22b500fd476338}
-      \strng{authorfullhash}{5e3352a94731ae5c44a1e071227199a3}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{American Journal of Transplantation}
-      \field{number}{9}
-      \field{title}{Impaired proinsulin processing is a characteristic of transplanted islets}
-      \field{volume}{9}
-      \field{year}{2009}
-      \true{nocite}
-      \field{pages}{2119\bibrangedash 2125}
-      \range{pages}{7}
-    \endentry
-    \entry{leto2012regulation}{article}{}
-      \name{author}{2}{}{%
-        {{hash=c6d8a835cf72cfacc77e137aa99b1c20}{%
-           family={Leto},
-           familyi={L\bibinitperiod},
-           given={Dara},
-           giveni={D\bibinitperiod}}}%
-        {{hash=11712a8e7c598d31c24448a1a6251cc7}{%
-           family={Saltiel},
-           familyi={S\bibinitperiod},
-           given={Alan\bibnamedelima R},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{d0f2816c626f3507879b8f96177acd2a}
-      \strng{fullhash}{d0f2816c626f3507879b8f96177acd2a}
-      \strng{bibnamehash}{d0f2816c626f3507879b8f96177acd2a}
-      \strng{authorbibnamehash}{d0f2816c626f3507879b8f96177acd2a}
-      \strng{authornamehash}{d0f2816c626f3507879b8f96177acd2a}
-      \strng{authorfullhash}{d0f2816c626f3507879b8f96177acd2a}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature reviews Molecular cell biology}
-      \field{number}{6}
-      \field{title}{Regulation of glucose transport by insulin: traffic control of GLUT4}
-      \field{volume}{13}
-      \field{year}{2012}
-      \true{nocite}
-      \field{pages}{383\bibrangedash 396}
-      \range{pages}{14}
-    \endentry
-    \entry{li2019focus}{article}{}
-      \name{author}{9}{}{%
-        {{hash=b486dc710bcdca36c36615cbc9bdfc27}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Don\bibnamedelima T},
-           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=8a2c090e3e4903e5df3d28e0eea62ae2}{%
-           family={Habtemichael},
-           familyi={H\bibinitperiod},
-           given={Estifanos\bibnamedelima N},
-           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=6d954e912e2e4df197b229a37d9630fb}{%
-           family={Julca},
-           familyi={J\bibinitperiod},
-           given={Omar},
-           giveni={O\bibinitperiod}}}%
-        {{hash=6813b238f99a8f8bfef2f2443ba72bb3}{%
-           family={Sales},
-           familyi={S\bibinitperiod},
-           given={Chloe\bibnamedelima I},
-           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=e041fd5f9d9721c562fe49e52afb7dd6}{%
-           family={Westergaard},
-           familyi={W\bibinitperiod},
-           given={Xavier\bibnamedelima O},
-           giveni={X\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=80f699e0bb7f9774966489e92242ea5d}{%
-           family={DeVries},
-           familyi={D\bibinitperiod},
-           given={Stephen\bibnamedelima G},
-           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=d8738b94b965cc0a1f023e2e8946b6a4}{%
-           family={Ruiz},
-           familyi={R\bibinitperiod},
-           given={Diana},
-           giveni={D\bibinitperiod}}}%
-        {{hash=68d8c0e54ec153d9142bbe3fc0caf618}{%
-           family={Sayal},
-           familyi={S\bibinitperiod},
-           given={Bhavesh},
-           giveni={B\bibinitperiod}}}%
-        {{hash=f460281ae91373bf7ac8532db5afb6af}{%
-           family={Bogan},
-           familyi={B\bibinitperiod},
-           given={Jonathan\bibnamedelima S},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Yale Journal of Biology}%
-        {Medicine}%
-      }
-      \strng{namehash}{b84ead801570bc43caafeac0302f293e}
-      \strng{fullhash}{0c1a3b8615068d3afc386dd076d8f3c8}
-      \strng{bibnamehash}{0c1a3b8615068d3afc386dd076d8f3c8}
-      \strng{authorbibnamehash}{0c1a3b8615068d3afc386dd076d8f3c8}
-      \strng{authornamehash}{b84ead801570bc43caafeac0302f293e}
-      \strng{authorfullhash}{0c1a3b8615068d3afc386dd076d8f3c8}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Yale journal of biology and medicine}
-      \field{number}{3}
-      \field{title}{Focus: Organelles: GLUT4 Storage Vesicles: Specialized Organelles for Regulated Trafficking}
-      \field{volume}{92}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{453}
-      \range{pages}{1}
-    \endentry
-    \entry{lizcano2002insulin}{article}{}
-      \name{author}{2}{}{%
-        {{hash=77ed51768f1386ff6b3e81b273e48acc}{%
-           family={Lizcano},
-           familyi={L\bibinitperiod},
-           given={Jose\bibnamedelima M},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=33e00c9c8e63fc78d0bd651d8082ac86}{%
-           family={Alessi},
-           familyi={A\bibinitperiod},
-           given={Dario\bibnamedelima R},
-           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{627575bf788967c679ca478c39d72af1}
-      \strng{fullhash}{627575bf788967c679ca478c39d72af1}
-      \strng{bibnamehash}{627575bf788967c679ca478c39d72af1}
-      \strng{authorbibnamehash}{627575bf788967c679ca478c39d72af1}
-      \strng{authornamehash}{627575bf788967c679ca478c39d72af1}
-      \strng{authorfullhash}{627575bf788967c679ca478c39d72af1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Current biology}
-      \field{number}{7}
-      \field{title}{The insulin signalling pathway}
-      \field{volume}{12}
-      \field{year}{2002}
-      \true{nocite}
-      \field{pages}{R236\bibrangedash R238}
-      \range{pages}{-1}
-    \endentry
-    \entry{mathieu2017insulin}{article}{}
-      \name{author}{3}{}{%
-        {{hash=b020a5b058e564711f12b40d27a2863c}{%
-           family={Mathieu},
-           familyi={M\bibinitperiod},
-           given={Chantal},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2e85080b09188b902125cf9f6630810e}{%
-           family={Gillard},
-           familyi={G\bibinitperiod},
-           given={Pieter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=36befaa10353bd68c927f95cec4ae0a2}{%
-           family={Benhalima},
-           familyi={B\bibinitperiod},
-           given={Katrien},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{6ecf811a3b29841032c9a54f535b4e79}
-      \strng{fullhash}{0f6b64e0d4ae0f3f43e0a9be6b46c32f}
-      \strng{bibnamehash}{0f6b64e0d4ae0f3f43e0a9be6b46c32f}
-      \strng{authorbibnamehash}{0f6b64e0d4ae0f3f43e0a9be6b46c32f}
-      \strng{authornamehash}{6ecf811a3b29841032c9a54f535b4e79}
-      \strng{authorfullhash}{0f6b64e0d4ae0f3f43e0a9be6b46c32f}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature Reviews Endocrinology}
-      \field{number}{7}
-      \field{title}{Insulin analogues in type 1 diabetes mellitus: getting better all the time}
-      \field{volume}{13}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{385\bibrangedash 399}
-      \range{pages}{15}
-    \endentry
-    \entry{mcgill2016management}{article}{}
-      \name{author}{2}{}{%
-        {{hash=99503d0c63f734713997012603f53747}{%
-           family={McGill},
-           familyi={M\bibinitperiod},
-           given={Dayna\bibnamedelima E},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=322c80526f0ba3fd7d4ecbf70596211f}{%
-           family={Levitsky},
-           familyi={L\bibinitperiod},
-           given={Lynne\bibnamedelima L},
-           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{59839c9602b94aba5d69daee1e28c578}
-      \strng{fullhash}{59839c9602b94aba5d69daee1e28c578}
-      \strng{bibnamehash}{59839c9602b94aba5d69daee1e28c578}
-      \strng{authorbibnamehash}{59839c9602b94aba5d69daee1e28c578}
-      \strng{authornamehash}{59839c9602b94aba5d69daee1e28c578}
-      \strng{authorfullhash}{59839c9602b94aba5d69daee1e28c578}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Current diabetes reports}
-      \field{number}{9}
-      \field{title}{Management of hypoglycemia in children and adolescents with type 1 diabetes mellitus}
-      \field{volume}{16}
-      \field{year}{2016}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-    \endentry
-    \entry{melendez2010complications}{article}{}
-      \name{author}{3}{}{%
-        {{hash=a762bbcd28495d9557553e87b5296907}{%
-           family={Melendez-Ramirez},
-           familyi={M\bibinithyphendelim R\bibinitperiod},
-           given={L\bibnamedelima Yvonne},
-           giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=6385b2992b364e28059f69c493529b7d}{%
-           family={Richards},
-           familyi={R\bibinitperiod},
-           given={Robert\bibnamedelima J},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=aafe38cea20914bc01e2f353ab17e6b1}{%
-           family={Cefalu},
-           familyi={C\bibinitperiod},
-           given={William\bibnamedelima T},
-           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{29c6c7d0fa980d41bdec34838493dce3}
-      \strng{fullhash}{98c6be220f84a59101bed75619093eda}
-      \strng{bibnamehash}{98c6be220f84a59101bed75619093eda}
-      \strng{authorbibnamehash}{98c6be220f84a59101bed75619093eda}
-      \strng{authornamehash}{29c6c7d0fa980d41bdec34838493dce3}
-      \strng{authorfullhash}{98c6be220f84a59101bed75619093eda}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Endocrinology and Metabolism Clinics}
-      \field{number}{3}
-      \field{title}{Complications of type 1 diabetes}
-      \field{volume}{39}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{625\bibrangedash 640}
-      \range{pages}{16}
-    \endentry
-    \entry{menting2013insulin}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=aa73068a7c116b83da0bc9f1be1aa1d8}{%
-           family={Menting},
-           familyi={M\bibinitperiod},
-           given={John\bibnamedelima G},
-           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=878cefd430260e0ff008de5fae08ecb5}{%
-           family={Whittaker},
-           familyi={W\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6062b082c397f01b1ebc825336df34a0}{%
-           family={Margetts},
-           familyi={M\bibinitperiod},
-           given={Mai\bibnamedelima B},
-           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=2709ae699f0013e82096791dad8a59fc}{%
-           family={Whittaker},
-           familyi={W\bibinitperiod},
-           given={Linda\bibnamedelima J},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=730564ccbdbb411f9b722a84f5a80c4e}{%
-           family={Kong},
-           familyi={K\bibinitperiod},
-           given={Geoffrey\bibnamedelima K-W},
-           giveni={G\bibinitperiod\bibinitdelim K\bibinithyphendelim W\bibinitperiod}}}%
-        {{hash=6dcd9edcc6805693059fbd2b2f81c74e}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Brian\bibnamedelima J},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=75771d4bd64c81c18b5e6ad297327161}{%
-           family={Watson},
-           familyi={W\bibinitperiod},
-           given={Christopher\bibnamedelima J},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=bee67308f01f223a4e0b306b9444a489}{%
-           family={Žáková},
-           familyi={Ž\bibinitperiod},
-           given={Lenka},
-           giveni={L\bibinitperiod}}}%
-        {{hash=dc36787565160f975b58392378658af7}{%
-           family={Kletvı́ková},
-           familyi={K\bibinitperiod},
-           given={Emı́lia},
-           giveni={E\bibinitperiod}}}%
-        {{hash=b52fd16f8d15deb55089321b7e712639}{%
-           family={Jiráček},
-           familyi={J\bibinitperiod},
-           given={Jiřı́},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{2fd735b38bfe08c609d424489a39756d}
-      \strng{fullhash}{50f4bb2d965833b2cc5915d0d51f5ac5}
-      \strng{bibnamehash}{50f4bb2d965833b2cc5915d0d51f5ac5}
-      \strng{authorbibnamehash}{50f4bb2d965833b2cc5915d0d51f5ac5}
-      \strng{authornamehash}{2fd735b38bfe08c609d424489a39756d}
-      \strng{authorfullhash}{50f4bb2d965833b2cc5915d0d51f5ac5}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{number}{7431}
-      \field{title}{How insulin engages its primary binding site on the insulin receptor}
-      \field{volume}{493}
-      \field{year}{2013}
-      \true{nocite}
-      \field{pages}{241\bibrangedash 245}
-      \range{pages}{5}
-    \endentry
-    \entry{norris2020type}{article}{}
-      \name{author}{3}{}{%
-        {{hash=4d3d990e2239dc8d822e91dd4b88071a}{%
-           family={Norris},
-           familyi={N\bibinitperiod},
-           given={Jill\bibnamedelima M},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=454bd92bf79788f56bfc4175cd28e6dd}{%
-           family={Johnson},
-           familyi={J\bibinitperiod},
-           given={Randi\bibnamedelima K},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=d88037146290dfe1d55bef5469e6688b}{%
-           family={Stene},
-           familyi={S\bibinitperiod},
-           given={Lars\bibnamedelima C},
-           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{f6b5b45507495ee02a3755c1a565b36d}
-      \strng{fullhash}{8ac5973fabc03451acbc6d93e939362b}
-      \strng{bibnamehash}{8ac5973fabc03451acbc6d93e939362b}
-      \strng{authorbibnamehash}{8ac5973fabc03451acbc6d93e939362b}
-      \strng{authornamehash}{f6b5b45507495ee02a3755c1a565b36d}
-      \strng{authorfullhash}{8ac5973fabc03451acbc6d93e939362b}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The lancet Diabetes \& endocrinology}
-      \field{number}{3}
-      \field{title}{Type 1 diabetes—Early life origins and changing epidemiology}
-      \field{volume}{8}
+      \field{title}{Principles for advancing game-based learning in teacher education}
+      \field{volume}{36}
       \field{year}{2020}
       \true{nocite}
-      \field{pages}{226\bibrangedash 238}
-      \range{pages}{13}
+      \field{pages}{84\bibrangedash 95}
+      \range{pages}{12}
     \endentry
-    \entry{ohneda2000regulation}{inproceedings}{}
+    \entry{leather2021pedagogy}{article}{}
       \name{author}{3}{}{%
-        {{hash=f87d996d431ccc158cf5a746817e55e7}{%
-           family={Ohneda},
-           familyi={O\bibinitperiod},
-           given={Kinuko},
-           giveni={K\bibinitperiod}}}%
-        {{hash=2d7130ad2b97813c934916911f15a252}{%
-           family={Ee},
-           familyi={E\bibinitperiod},
-           given={Hooi},
-           giveni={H\bibinitperiod}}}%
-        {{hash=e469175e8b19042f8adada81ebedef6c}{%
-           family={German},
-           familyi={G\bibinitperiod},
-           given={Michael},
+        {{hash=91122aee2df2b88b0866e7e851e9aef9}{%
+           family={Leather},
+           familyi={L\bibinitperiod},
+           given={Mark},
            giveni={M\bibinitperiod}}}%
+        {{hash=5887143939b3f7dde969c062f556412d}{%
+           family={Harper},
+           familyi={H\bibinitperiod},
+           given={Nevin},
+           giveni={N\bibinitperiod}}}%
+        {{hash=415cf38c9794cd71ee015ad1b311d52d}{%
+           family={Obee},
+           familyi={O\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {Elsevier}%
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
       }
-      \strng{namehash}{a1f85ee50c6b687a3e4684b05d402c11}
-      \strng{fullhash}{643c8582c276bb14b6e6fc991370c453}
-      \strng{bibnamehash}{643c8582c276bb14b6e6fc991370c453}
-      \strng{authorbibnamehash}{643c8582c276bb14b6e6fc991370c453}
-      \strng{authornamehash}{a1f85ee50c6b687a3e4684b05d402c11}
-      \strng{authorfullhash}{643c8582c276bb14b6e6fc991370c453}
+      \strng{namehash}{ee6c29dbd8d3bc549ab61cd0802ae2bb}
+      \strng{fullhash}{987eb53b6ee97088081666b282138078}
+      \strng{bibnamehash}{987eb53b6ee97088081666b282138078}
+      \strng{authorbibnamehash}{987eb53b6ee97088081666b282138078}
+      \strng{authornamehash}{ee6c29dbd8d3bc549ab61cd0802ae2bb}
+      \strng{authorfullhash}{987eb53b6ee97088081666b282138078}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experiential Education}
+      \field{number}{3}
+      \field{title}{A pedagogy of play: Reasons to be playful in postsecondary education}
+      \field{volume}{44}
+      \field{year}{2021}
+      \field{pages}{208\bibrangedash 226}
+      \range{pages}{19}
+    \endentry
+    \entry{kindergartencurriculum}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aa57ccae7f53819db38b702e7967ed0a}{%
+           family={{Ontario Ministry of Education}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa57ccae7f53819db38b702e7967ed0a}
+      \strng{fullhash}{aa57ccae7f53819db38b702e7967ed0a}
+      \strng{bibnamehash}{aa57ccae7f53819db38b702e7967ed0a}
+      \strng{authorbibnamehash}{aa57ccae7f53819db38b702e7967ed0a}
+      \strng{authornamehash}{aa57ccae7f53819db38b702e7967ed0a}
+      \strng{authorfullhash}{aa57ccae7f53819db38b702e7967ed0a}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Seminars in cell \& developmental biology}
-      \field{number}{4}
-      \field{title}{Regulation of insulin gene transcription}
-      \field{volume}{11}
-      \field{year}{2000}
-      \true{nocite}
-      \field{pages}{227\bibrangedash 233}
-      \range{pages}{7}
+      \field{title}{The Kindergarten Program}
+      \field{year}{2016}
     \endentry
-    \entry{patterson2012trends}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=cc7fe7ea3bf02c82148095d1cdf46406}{%
-           family={Patterson},
-           familyi={P\bibinitperiod},
-           given={Chris\bibnamedelima C},
-           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=a63d6b58eeaad12ccb59bcfc2b8b07a7}{%
-           family={Gyürüs},
-           familyi={G\bibinitperiod},
-           given={Eva},
-           giveni={E\bibinitperiod}}}%
-        {{hash=254a1320f4f9a8d3832693b2bcf9e158}{%
-           family={Rosenbauer},
+    \entry{reich2020failure}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ef1c44de167c4d447dfd4ef3f0c342a3}{%
+           family={Reich},
            familyi={R\bibinitperiod},
-           given={Joachim},
+           given={Justin},
            giveni={J\bibinitperiod}}}%
-        {{hash=0cc7c21d5227e16f4fecdbcc0ec5ce11}{%
-           family={Cinek},
-           familyi={C\bibinitperiod},
-           given={Ondrej},
-           giveni={O\bibinitperiod}}}%
-        {{hash=2ec869cf3005bcd7398b4f3061771f0a}{%
-           family={Neu},
-           familyi={N\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ea8df2f64c0b070e70584d134b8b4082}{%
-           family={Schober},
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{ef1c44de167c4d447dfd4ef3f0c342a3}
+      \strng{fullhash}{ef1c44de167c4d447dfd4ef3f0c342a3}
+      \strng{bibnamehash}{ef1c44de167c4d447dfd4ef3f0c342a3}
+      \strng{authorbibnamehash}{ef1c44de167c4d447dfd4ef3f0c342a3}
+      \strng{authornamehash}{ef1c44de167c4d447dfd4ef3f0c342a3}
+      \strng{authorfullhash}{ef1c44de167c4d447dfd4ef3f0c342a3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Failure to disrupt: Why technology alone can't transform education}
+      \field{year}{2020}
+    \endentry
+    \entry{ruggiero2013video}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=9d29e979d3cb9d96099f24bb409fe977}{%
+           family={Ruggiero},
+           familyi={R\bibinitperiod},
+           given={Dana},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d29e979d3cb9d96099f24bb409fe977}
+      \strng{fullhash}{9d29e979d3cb9d96099f24bb409fe977}
+      \strng{bibnamehash}{9d29e979d3cb9d96099f24bb409fe977}
+      \strng{authorbibnamehash}{9d29e979d3cb9d96099f24bb409fe977}
+      \strng{authornamehash}{9d29e979d3cb9d96099f24bb409fe977}
+      \strng{authorfullhash}{9d29e979d3cb9d96099f24bb409fe977}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Games for Learning workshop of the Foundations of Digital Games conference, Chania, Greece}
+      \field{title}{Video games in the classroom: The teacher point of view}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{shore2010beyond}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7454ad673c633eb0fc1d8a40bbab32d0}{%
+           family={Shore},
            familyi={S\bibinitperiod},
-           given={Edith},
-           giveni={E\bibinitperiod}}}%
-        {{hash=a147a771024100e8e30ee1b2139915e8}{%
-           family={Parslow},
-           familyi={P\bibinitperiod},
-           given={Roger\bibnamedelima C},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=a325690f8a5bd282d2b3a792e9eb9590}{%
-           family={Joner},
-           familyi={J\bibinitperiod},
-           given={Geir},
-           giveni={G\bibinitperiod}}}%
-        {{hash=f57cc709758bebed17b7955d87f1744e}{%
-           family={Svensson},
-           familyi={S\bibinitperiod},
-           given={Jannet},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6d4d0d640677d245d504bdb82efe0f5c}{%
-           family={Castell},
-           familyi={C\bibinitperiod},
-           given={C},
+           given={Cris},
            giveni={C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Berghahn Journals}%
       }
-      \strng{namehash}{06f4965eee53c841fb79649bb0c629dd}
-      \strng{fullhash}{f696bd8c2334abccdc89ba58b3b84763}
-      \strng{bibnamehash}{f696bd8c2334abccdc89ba58b3b84763}
-      \strng{authorbibnamehash}{f696bd8c2334abccdc89ba58b3b84763}
-      \strng{authornamehash}{06f4965eee53c841fb79649bb0c629dd}
-      \strng{authorfullhash}{f696bd8c2334abccdc89ba58b3b84763}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Diabetologia}
-      \field{number}{8}
-      \field{title}{Trends in childhood type 1 diabetes incidence in Europe during 1989--2008: evidence of non-uniformity over time in rates of increase}
-      \field{volume}{55}
-      \field{year}{2012}
-      \true{nocite}
-      \field{pages}{2142\bibrangedash 2147}
-      \range{pages}{6}
-    \endentry
-    \entry{steck2011review}{article}{}
-      \name{author}{2}{}{%
-        {{hash=52cfce51cdb5055d7157dcb3bc2f4482}{%
-           family={Steck},
-           familyi={S\bibinitperiod},
-           given={Andrea\bibnamedelima K},
-           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=f544f4294bf95cc54f18079da5e8adeb}{%
-           family={Winter},
-           familyi={W\bibinitperiod},
-           given={Wiliam\bibnamedelima E},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {LWW}%
-      }
-      \strng{namehash}{1d7b6a51bad8ea2e3af3e2707e3f3b12}
-      \strng{fullhash}{1d7b6a51bad8ea2e3af3e2707e3f3b12}
-      \strng{bibnamehash}{1d7b6a51bad8ea2e3af3e2707e3f3b12}
-      \strng{authorbibnamehash}{1d7b6a51bad8ea2e3af3e2707e3f3b12}
-      \strng{authornamehash}{1d7b6a51bad8ea2e3af3e2707e3f3b12}
-      \strng{authorfullhash}{1d7b6a51bad8ea2e3af3e2707e3f3b12}
+      \strng{namehash}{7454ad673c633eb0fc1d8a40bbab32d0}
+      \strng{fullhash}{7454ad673c633eb0fc1d8a40bbab32d0}
+      \strng{bibnamehash}{7454ad673c633eb0fc1d8a40bbab32d0}
+      \strng{authorbibnamehash}{7454ad673c633eb0fc1d8a40bbab32d0}
+      \strng{authornamehash}{7454ad673c633eb0fc1d8a40bbab32d0}
+      \strng{authorfullhash}{7454ad673c633eb0fc1d8a40bbab32d0}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Current Opinion in Endocrinology, Diabetes and Obesity}
-      \field{number}{4}
-      \field{title}{Review on monogenic diabetes}
+      \field{journaltitle}{Social Anthropology/Anthropologie Sociale}
+      \field{number}{1}
+      \field{title}{Beyond the multiversity: Neoliberalism and the rise of the schizophrenic university}
       \field{volume}{18}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{252\bibrangedash 258}
-      \range{pages}{7}
+      \field{year}{2010}
+      \field{pages}{15\bibrangedash 29}
+      \range{pages}{15}
     \endentry
-    \entry{stockli2011glut4}{article}{}
-      \name{author}{3}{}{%
-        {{hash=9a4558cc50493b36e400b1ec334c2e90}{%
-           family={Stöckli},
-           familyi={S\bibinitperiod},
-           given={Jacqueline},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d151b7d16f0b4fc7f2df65f6d35e093d}{%
-           family={Fazakerley},
-           familyi={F\bibinitperiod},
-           given={Daniel\bibnamedelima J},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=9ad3073bf60f5947ef7c680c2fe7b27b}{%
-           family={James},
-           familyi={J\bibinitperiod},
-           given={David\bibnamedelima E},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+    \entry{vygotsky1967play}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ea19e4d26a75e62caddfee7394a5c042}{%
+           family={Vygotsky},
+           familyi={V\bibinitperiod},
+           given={Lev\bibnamedelima S},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Company of Biologists}%
+        {Taylor \& Francis}%
       }
-      \strng{namehash}{650b1fe03e860134244a854778472577}
-      \strng{fullhash}{43b0b5719ecf4f363705dac25da0beb6}
-      \strng{bibnamehash}{43b0b5719ecf4f363705dac25da0beb6}
-      \strng{authorbibnamehash}{43b0b5719ecf4f363705dac25da0beb6}
-      \strng{authornamehash}{650b1fe03e860134244a854778472577}
-      \strng{authorfullhash}{43b0b5719ecf4f363705dac25da0beb6}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{ea19e4d26a75e62caddfee7394a5c042}
+      \strng{fullhash}{ea19e4d26a75e62caddfee7394a5c042}
+      \strng{bibnamehash}{ea19e4d26a75e62caddfee7394a5c042}
+      \strng{authorbibnamehash}{ea19e4d26a75e62caddfee7394a5c042}
+      \strng{authornamehash}{ea19e4d26a75e62caddfee7394a5c042}
+      \strng{authorfullhash}{ea19e4d26a75e62caddfee7394a5c042}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of cell science}
-      \field{number}{24}
-      \field{title}{GLUT4 exocytosis}
-      \field{volume}{124}
-      \field{year}{2011}
-      \true{nocite}
-      \field{pages}{4147\bibrangedash 4159}
+      \field{journaltitle}{Soviet psychology}
+      \field{number}{3}
+      \field{title}{Play and its role in the mental development of the child}
+      \field{volume}{5}
+      \field{year}{1967}
+      \field{pages}{6\bibrangedash 18}
       \range{pages}{13}
     \endentry
-    \entry{sun1991structure}{article}{}
-      \name{author}{9}{}{%
-        {{hash=eb65f72b758aecb016ccdf5a8eec2e95}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Xiao\bibnamedelima Jian},
-           giveni={X\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=b7e85bb52ca0c5449e2af87440978b69}{%
-           family={Rothenberg},
-           familyi={R\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=1a5e9cd90b467b1a8188fe91ae2d345a}{%
-           family={Kahn},
-           familyi={K\bibinitperiod},
-           given={C\bibnamedelima Ronald},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=1ba51f20567f1e5fa7d33d087b306634}{%
-           family={Backer},
-           familyi={B\bibinitperiod},
-           given={Jonathan\bibnamedelima M},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=07acfdf5ee28bfa572f47e76b84d1b1c}{%
-           family={Araki},
-           familyi={A\bibinitperiod},
-           given={Eiichi},
-           giveni={E\bibinitperiod}}}%
-        {{hash=e675ac8c717538ac7ad6cbe89bf32d1d}{%
-           family={Wilden},
-           familyi={W\bibinitperiod},
-           given={Peter\bibnamedelima A},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=62cdfde65568b20c1f20d8c7a2805995}{%
-           family={Cahill},
-           familyi={C\bibinitperiod},
-           given={Deborah\bibnamedelima A},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=57c7e94f64358a409bb01ecda95ed796}{%
-           family={Goldstein},
-           familyi={G\bibinitperiod},
-           given={Barry\bibnamedelima J},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=371725d1c3f7a2aef29ac9c0dcbc6fee}{%
-           family={White},
-           familyi={W\bibinitperiod},
-           given={Morris\bibnamedelima F},
-           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{9ed1eb5bcb6d1e86ee5c2fe41ff0923c}
-      \strng{fullhash}{7440aa7069715092403ae0ec38d873d7}
-      \strng{bibnamehash}{7440aa7069715092403ae0ec38d873d7}
-      \strng{authorbibnamehash}{7440aa7069715092403ae0ec38d873d7}
-      \strng{authornamehash}{9ed1eb5bcb6d1e86ee5c2fe41ff0923c}
-      \strng{authorfullhash}{7440aa7069715092403ae0ec38d873d7}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{number}{6330}
-      \field{title}{Structure of the insulin receptor substrate IRS-1 defines a unique signal transduction protein}
-      \field{volume}{352}
-      \field{year}{1991}
-      \true{nocite}
-      \field{pages}{73\bibrangedash 77}
-      \range{pages}{5}
-    \endentry
-    \entry{todd2010etiology}{article}{}
+    \entry{wood2013play}{article}{}
       \name{author}{1}{}{%
-        {{hash=15786612d8a970bf05fab391a99b0962}{%
-           family={Todd},
-           familyi={T\bibinitperiod},
-           given={John\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{15786612d8a970bf05fab391a99b0962}
-      \strng{fullhash}{15786612d8a970bf05fab391a99b0962}
-      \strng{bibnamehash}{15786612d8a970bf05fab391a99b0962}
-      \strng{authorbibnamehash}{15786612d8a970bf05fab391a99b0962}
-      \strng{authornamehash}{15786612d8a970bf05fab391a99b0962}
-      \strng{authorfullhash}{15786612d8a970bf05fab391a99b0962}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Immunity}
-      \field{number}{4}
-      \field{title}{Etiology of type 1 diabetes}
-      \field{volume}{32}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{457\bibrangedash 467}
-      \range{pages}{11}
-    \endentry
-    \entry{tokarz2018cell}{article}{}
-      \name{author}{3}{}{%
-        {{hash=54efb452770ef1e6ad05597401d0bce4}{%
-           family={Tokarz},
-           familyi={T\bibinitperiod},
-           given={Victoria\bibnamedelima L},
-           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=43746ec53dca799c3a8c4cc493a624bc}{%
-           family={MacDonald},
-           familyi={M\bibinitperiod},
-           given={Patrick\bibnamedelima E},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=be6cbd45ccde76596620aa9350c93a0a}{%
-           family={Klip},
-           familyi={K\bibinitperiod},
-           given={Amira},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Rockefeller University Press}%
-      }
-      \strng{namehash}{fe6b77edb7588303c2108ad15875ab40}
-      \strng{fullhash}{8b90b57a3ff241fc9c263c273d6aae4b}
-      \strng{bibnamehash}{8b90b57a3ff241fc9c263c273d6aae4b}
-      \strng{authorbibnamehash}{8b90b57a3ff241fc9c263c273d6aae4b}
-      \strng{authornamehash}{fe6b77edb7588303c2108ad15875ab40}
-      \strng{authorfullhash}{8b90b57a3ff241fc9c263c273d6aae4b}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Cell Biology}
-      \field{number}{7}
-      \field{title}{The cell biology of systemic insulin function}
-      \field{volume}{217}
-      \field{year}{2018}
-      \true{nocite}
-      \field{pages}{2273\bibrangedash 2289}
-      \range{pages}{17}
-    \endentry
-    \entry{van2009type}{article}{}
-      \name{author}{4}{}{%
-        {{hash=f2fcebf81b64c7d9b159d3f4c3f18c41}{%
-           family={Van\bibnamedelimb den\bibnamedelima Driessche},
-           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-        {{hash=457ccafc6007ed698e52dad035a89a6a}{%
-           family={Eenkhoorn},
-           familyi={E\bibinitperiod},
-           given={V},
-           giveni={V\bibinitperiod}}}%
-        {{hash=c621b922cafdfc70893a9f06a75974a4}{%
-           family={Van\bibnamedelima Gaal},
-           familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={L},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d84529859561d484b8ce68855fa45d39}{%
-           family={De\bibnamedelima Block},
-           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{882476bf01ffa82b10325fd891058db3}
-      \strng{fullhash}{22862e2e1f69b0060fc30cdb19914d92}
-      \strng{bibnamehash}{22862e2e1f69b0060fc30cdb19914d92}
-      \strng{authorbibnamehash}{22862e2e1f69b0060fc30cdb19914d92}
-      \strng{authornamehash}{882476bf01ffa82b10325fd891058db3}
-      \strng{authorfullhash}{22862e2e1f69b0060fc30cdb19914d92}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Neth J Med}
-      \field{number}{11}
-      \field{title}{Type 1 diabetes and autoimmune polyglandular syndrome: a clinical review}
-      \field{volume}{67}
-      \field{year}{2009}
-      \true{nocite}
-      \field{pages}{376\bibrangedash 87}
-      \range{pages}{12}
-    \endentry
-    \entry{vranic1985comparison}{book}{}
-      \name{author}{3}{}{%
-        {{hash=db5311201a74a19b62185c94299b5ca8}{%
-           family={Vranic},
-           familyi={V\bibinitperiod},
-           given={Mladen},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5bf1083ab5ee7766106fd82065c506a2}{%
-           family={Hollenberg},
-           familyi={H\bibinitperiod},
-           given={Charles\bibnamedelima H},
-           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=48fa11b4fe22a41d3b098811a8573520}{%
-           family={Steiner},
-           familyi={S\bibinitperiod},
-           given={George},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{da22bc8c458c5ffe8a338bc8281fd1d5}
-      \strng{fullhash}{1fc5d5537d950a043d11be9da03845e2}
-      \strng{bibnamehash}{1fc5d5537d950a043d11be9da03845e2}
-      \strng{authorbibnamehash}{1fc5d5537d950a043d11be9da03845e2}
-      \strng{authornamehash}{da22bc8c458c5ffe8a338bc8281fd1d5}
-      \strng{authorfullhash}{1fc5d5537d950a043d11be9da03845e2}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Comparison of Type I and Type II Diabetes: Similarities and Dissimilarities in Etiology, Pathogenesis, and Complications}
-      \field{year}{1985}
-      \true{nocite}
-    \endentry
-    \entry{wherrett2018type}{article}{}
-      \name{author}{6}{}{%
-        {{hash=1d52a90cfc1b62a76314f498d14f7418}{%
-           family={Wherrett},
+        {{hash=abff77685a272898d79322ab6ebe0f2b}{%
+           family={Wood},
            familyi={W\bibinitperiod},
-           given={Diane\bibnamedelima K},
-           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=ea58eaa2b310b11b3067592add8ce4b1}{%
-           family={Ho},
-           familyi={H\bibinitperiod},
-           given={Josephine},
-           giveni={J\bibinitperiod}}}%
-        {{hash=3670c2c5582274687f407aa11780cc70}{%
-           family={Huot},
-           familyi={H\bibinitperiod},
-           given={Celine},
-           giveni={C\bibinitperiod}}}%
-        {{hash=6a056d9c2608ee4e6ecd28d83346dcae}{%
-           family={Legault},
-           familyi={L\bibinitperiod},
-           given={Laurent},
-           giveni={L\bibinitperiod}}}%
-        {{hash=d51d01436d57a22dd91b5ab536471178}{%
-           family={Nakhla},
-           familyi={N\bibinitperiod},
-           given={Meranda},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9d74b315b681d9a2ca01e8cc77edc205}{%
-           family={Rosolowsky},
-           familyi={R\bibinitperiod},
-           given={Elizabeth},
-           giveni={E\bibinitperiod}}}%
+           given={Elizabeth\bibnamedelima Ann},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Elsevier}%
+        {SAGE Publications Ltd}%
       }
-      \strng{namehash}{96edf19e5422a258dfe8c4abcd943428}
-      \strng{fullhash}{a91c0f1873602acdb2f97916a90c13ac}
-      \strng{bibnamehash}{a91c0f1873602acdb2f97916a90c13ac}
-      \strng{authorbibnamehash}{a91c0f1873602acdb2f97916a90c13ac}
-      \strng{authornamehash}{96edf19e5422a258dfe8c4abcd943428}
-      \strng{authorfullhash}{a91c0f1873602acdb2f97916a90c13ac}
+      \strng{namehash}{abff77685a272898d79322ab6ebe0f2b}
+      \strng{fullhash}{abff77685a272898d79322ab6ebe0f2b}
+      \strng{bibnamehash}{abff77685a272898d79322ab6ebe0f2b}
+      \strng{authorbibnamehash}{abff77685a272898d79322ab6ebe0f2b}
+      \strng{authornamehash}{abff77685a272898d79322ab6ebe0f2b}
+      \strng{authorfullhash}{abff77685a272898d79322ab6ebe0f2b}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Canadian journal of diabetes}
-      \field{title}{Type 1 diabetes in children and adolescents}
-      \field{volume}{42}
-      \field{year}{2018}
-      \true{nocite}
-      \field{pages}{S234\bibrangedash S246}
-      \range{pages}{-1}
-    \endentry
-    \entry{yang2016monogenic}{article}{}
-      \name{author}{2}{}{%
-        {{hash=cb1faebe9a7b446d4096e1a23794facc}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Yisheng},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=510dbf787b25c946b28ce73e81955092}{%
-           family={Chan},
-           familyi={C\bibinitperiod},
-           given={Lawrence},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{ba077412bdc551f4b7aff30b9b35d400}
-      \strng{fullhash}{ba077412bdc551f4b7aff30b9b35d400}
-      \strng{bibnamehash}{ba077412bdc551f4b7aff30b9b35d400}
-      \strng{authorbibnamehash}{ba077412bdc551f4b7aff30b9b35d400}
-      \strng{authornamehash}{ba077412bdc551f4b7aff30b9b35d400}
-      \strng{authorfullhash}{ba077412bdc551f4b7aff30b9b35d400}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Endocrine reviews}
-      \field{number}{3}
-      \field{title}{Monogenic diabetes: what it teaches us on the common forms of type 1 and type 2 diabetes}
-      \field{volume}{37}
-      \field{year}{2016}
-      \true{nocite}
-      \field{pages}{190\bibrangedash 222}
-      \range{pages}{33}
-    \endentry
-    \entry{yu2007glucose}{article}{}
-      \name{author}{4}{}{%
-        {{hash=956a2fa92c4e117e71c410883e93e178}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Chenfei},
-           giveni={C\bibinitperiod}}}%
-        {{hash=f6e9852f9338453c1162d2a4221a547d}{%
-           family={Cresswell},
-           familyi={C\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a04e2de1c5b01aafb68a636494b23cec}{%
-           family={Löffler},
-           familyi={L\bibinitperiod},
-           given={Michael\bibnamedelima G},
-           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=f460281ae91373bf7ac8532db5afb6af}{%
-           family={Bogan},
-           familyi={B\bibinitperiod},
-           given={Jonathan\bibnamedelima S},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ASBMB}%
-      }
-      \strng{namehash}{bb5cb3445e2c4dcd115c88087d1399b1}
-      \strng{fullhash}{ac26d8479891737baad32dc7e1a1d421}
-      \strng{bibnamehash}{ac26d8479891737baad32dc7e1a1d421}
-      \strng{authorbibnamehash}{ac26d8479891737baad32dc7e1a1d421}
-      \strng{authornamehash}{bb5cb3445e2c4dcd115c88087d1399b1}
-      \strng{authorfullhash}{ac26d8479891737baad32dc7e1a1d421}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Biological Chemistry}
-      \field{number}{10}
-      \field{title}{The glucose transporter 4-regulating protein TUG is essential for highly insulin-responsive glucose uptake in 3T3-L1 adipocytes}
-      \field{volume}{282}
-      \field{year}{2007}
-      \true{nocite}
-      \field{pages}{7710\bibrangedash 7722}
-      \range{pages}{13}
+      \field{journaltitle}{Play, Learning and the Early Childhood Curriculum}
+      \field{title}{Play, Learning and the Early Childhood Curriculum: SAGE Publications}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 208}
+      \range{pages}{208}
     \endentry
   \enddatalist
 \endrefsection

@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'paper0904.blg'
-[46] biber:340> INFO - === Tue Dec 20, 2022, 22:12:47
-[54] Biber.pm:418> INFO - Reading 'paper0904.bcf'
-[95] Biber.pm:969> INFO - Using all citekeys in bib section 0
-[103] Biber.pm:4383> INFO - Processing section 0
-[110] Biber.pm:4574> INFO - Looking for bibtex file 'ABC1.bib' for section 0
-[111] bibtex.pm:1713> INFO - LaTeX decoding ...
-[137] bibtex.pm:1518> INFO - Found BibTeX data source 'ABC1.bib'
-[364] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[364] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[364] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[364] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[388] bbl.pm:654> INFO - Writing 'paper0904.bbl' with encoding 'UTF-8'
-[404] bbl.pm:757> INFO - Output to paper0904.bbl
+[41] biber:340> INFO - === Sat Jan  7, 2023, 19:09:10
+[49] Biber.pm:418> INFO - Reading 'paper0904.bcf'
+[88] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[95] Biber.pm:4383> INFO - Processing section 0
+[101] Biber.pm:4574> INFO - Looking for bibtex file 'ABC1.bib' for section 0
+[102] bibtex.pm:1713> INFO - LaTeX decoding ...
+[107] bibtex.pm:1518> INFO - Found BibTeX data source 'ABC1.bib'
+[156] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[156] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[156] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[156] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[162] bbl.pm:654> INFO - Writing 'paper0904.bbl' with encoding 'UTF-8'
+[165] bbl.pm:757> INFO - Output to paper0904.bbl
