@@ -45,6 +45,42 @@
       \field{title}{Politics and policy making in education: Explorations in sociology}
       \field{year}{2012}
     \endentry
+    \entry{coller2009effectiveness}{article}{}
+      \name{author}{2}{}{%
+        {{hash=40053fa8df7fb159e719e216695700b1}{%
+           family={Coller},
+           familyi={C\bibinitperiod},
+           given={Brianno\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7e82bef9bc0aca6fd515b7e3662c4b1a}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{fullhash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{bibnamehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{authorbibnamehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{authornamehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{authorfullhash}{8d3236d7e201b42d00f07894f2a83e87}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Education}
+      \field{number}{3}
+      \field{title}{Effectiveness of using a video game to teach a course in mechanical engineering}
+      \field{volume}{53}
+      \field{year}{2009}
+      \field{pages}{900\bibrangedash 912}
+      \range{pages}{13}
+    \endentry
     \entry{fishman2014empowering}{article}{}
       \name{author}{5}{}{%
         {{hash=b7dd4b4e9d20ecd772bf0bef70455b28}{%
@@ -88,7 +124,54 @@
       \field{journaltitle}{Ann Arbor, MI: University of Michigan. Retrieved from http://gamesandlearning. umich. edu/agames}
       \field{title}{Empowering educators: Supporting student progress in the classroom with digital games}
       \field{year}{2014}
-      \true{nocite}
+    \endentry
+    \entry{foss2013medication}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{hash=b93a9a7392b953c4571edbdfd034af3c}{%
+           family={Foss},
+           familyi={F\bibinitperiod},
+           given={Brynjar},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0da19246b047909c90ad6d0ac485368b}{%
+           family={Mordt},
+           familyi={M\bibinitperiod},
+           given={Petter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4a05981df27ed21c45cc072d84189eb5}{%
+           family={Oftedal},
+           familyi={O\bibinitperiod},
+           given={Bj{ø}rg\bibnamedelima F},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=eddbe441ef7cb54d140fea7d433baee9}{%
+           family={L{ø}kken},
+           familyi={L\bibinitperiod},
+           given={Atle},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LWW}%
+      }
+      \strng{namehash}{574bac947ab5d5aacd8142b29ba556ed}
+      \strng{fullhash}{7153e79692d0e12191d7b0ba1aba6d33}
+      \strng{bibnamehash}{7153e79692d0e12191d7b0ba1aba6d33}
+      \strng{authorbibnamehash}{7153e79692d0e12191d7b0ba1aba6d33}
+      \strng{authornamehash}{574bac947ab5d5aacd8142b29ba556ed}
+      \strng{authorfullhash}{7153e79692d0e12191d7b0ba1aba6d33}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CIN: Computers, Informatics, Nursing}
+      \field{number}{12}
+      \field{title}{Medication calculation: the potential role of digital game-based learning in nurse education}
+      \field{volume}{31}
+      \field{year}{2013}
+      \field{pages}{589\bibrangedash 593}
+      \range{pages}{5}
     \endentry
     \entry{foster2020principles}{article}{}
       \name{author}{2}{}{%
@@ -123,7 +206,6 @@
       \field{title}{Principles for advancing game-based learning in teacher education}
       \field{volume}{36}
       \field{year}{2020}
-      \true{nocite}
       \field{pages}{84\bibrangedash 95}
       \range{pages}{12}
     \endentry
@@ -168,6 +250,37 @@
       \field{pages}{208\bibrangedash 226}
       \range{pages}{19}
     \endentry
+    \entry{mckeachie2013mckeachie}{book}{}
+      \name{author}{2}{}{%
+        {{hash=cc4245c22f418b7bd2edd92d695ea5f2}{%
+           family={McKeachie},
+           familyi={M\bibinitperiod},
+           given={Wilbert},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7f50a15e034ffb926e230328a4df3b74}{%
+           family={Svinicki},
+           familyi={S\bibinitperiod},
+           given={Marilla},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{410d181e583044e804f1156898a41559}
+      \strng{fullhash}{410d181e583044e804f1156898a41559}
+      \strng{bibnamehash}{410d181e583044e804f1156898a41559}
+      \strng{authorbibnamehash}{410d181e583044e804f1156898a41559}
+      \strng{authornamehash}{410d181e583044e804f1156898a41559}
+      \strng{authorfullhash}{410d181e583044e804f1156898a41559}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{McKeachie's teaching tips}
+      \field{year}{2013}
+    \endentry
     \entry{kindergartencurriculum}{article}{}
       \name{author}{1}{}{%
         {{hash=aa57ccae7f53819db38b702e7967ed0a}{%
@@ -188,6 +301,34 @@
       \field{labeltitlesource}{title}
       \field{title}{The Kindergarten Program}
       \field{year}{2016}
+    \endentry
+    \entry{prensky2001fun}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6d930e5b057a98ac52b572dd1890bd11}{%
+           family={Prensky},
+           familyi={P\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d930e5b057a98ac52b572dd1890bd11}
+      \strng{fullhash}{6d930e5b057a98ac52b572dd1890bd11}
+      \strng{bibnamehash}{6d930e5b057a98ac52b572dd1890bd11}
+      \strng{authorbibnamehash}{6d930e5b057a98ac52b572dd1890bd11}
+      \strng{authornamehash}{6d930e5b057a98ac52b572dd1890bd11}
+      \strng{authorfullhash}{6d930e5b057a98ac52b572dd1890bd11}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital game-based learning}
+      \field{number}{1}
+      \field{title}{Fun, play and games: What makes games engaging}
+      \field{volume}{5}
+      \field{year}{2001}
+      \field{pages}{5\bibrangedash 31}
+      \range{pages}{27}
     \endentry
     \entry{reich2020failure}{book}{}
       \name{author}{1}{}{%
@@ -238,7 +379,6 @@
       \field{booktitle}{Games for Learning workshop of the Foundations of Digital Games conference, Chania, Greece}
       \field{title}{Video games in the classroom: The teacher point of view}
       \field{year}{2013}
-      \true{nocite}
     \endentry
     \entry{shore2010beyond}{article}{}
       \name{author}{1}{}{%
@@ -270,6 +410,34 @@
       \field{year}{2010}
       \field{pages}{15\bibrangedash 29}
       \range{pages}{15}
+    \endentry
+    \entry{tomavska2022let}{article}{}
+      \name{author}{1}{}{%
+        {{hash=499061ea42dd62f927f08594e70d5d2a}{%
+           family={Tomáška},
+           familyi={T\bibinitperiod},
+           given={L'ubomı́r},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{fullhash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{bibnamehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{authorbibnamehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{authornamehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{authorfullhash}{499061ea42dd62f927f08594e70d5d2a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EMBO reports}
+      \field{number}{11}
+      \field{title}{Let's bring games into university classrooms: Specifically adapted games could greatly enhance teaching in higher education}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{e55730}
+      \range{pages}{-1}
     \endentry
     \entry{vygotsky1967play}{article}{}
       \name{author}{1}{}{%
