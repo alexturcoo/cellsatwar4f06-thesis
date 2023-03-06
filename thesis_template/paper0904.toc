@@ -1,8 +1,15 @@
 \contentsline {section}{\numberline {}Abstract}{3}{section.1}%
 \contentsline {section}{\numberline {}Literature Review/Proposal}{4}{section.2}%
-\contentsline {subsection}{\numberline {}Children and Play}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {}Gamification of Learning}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {}What Happens to Play Beyond the Formative Years?}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {}Do Games Help or Hurt Learning: The Debate Over Game-Based Learning}{5}{subsection.2.3}%
 \contentsline {subsection}{\numberline {}The Benefits of Using Video Games at the Post-secondary Level}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {}Concluding the Lit Review - I dont know if I wanna put this here}{6}{subsection.2.5}%
-\contentsline {section}{\numberline {}References}{7}{section.3}%
+\contentsline {section}{\numberline {}Materials and Methods}{6}{section.3}%
+\contentsline {subsection}{\numberline {}Study Setting and Context}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {}Video Game Design/Creation}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {}Study Participants}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {}Survey Design: Qualitative Analysis of Student Feedback}{7}{subsection.3.4}%
+\contentsline {section}{\numberline {}Results}{7}{section.4}%
+\contentsline {section}{\numberline {}Discussion}{7}{section.5}%
+\contentsline {section}{\numberline {}Future Directions}{7}{section.6}%
+\contentsline {section}{\numberline {}References}{8}{section.7}%

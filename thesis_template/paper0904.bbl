@@ -45,6 +45,39 @@
       \field{title}{Politics and policy making in education: Explorations in sociology}
       \field{year}{2012}
     \endentry
+    \entry{chee2014facilitating}{article}{}
+      \name{author}{3}{}{%
+        {{hash=70d8c43246eebe47f8119a1c3d773bc7}{%
+           family={Chee},
+           familyi={C\bibinitperiod},
+           given={Yam\bibnamedelima San},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d6ffe62b0d9027819cf6d2286e0a85d3}{%
+           family={Mehrotra},
+           familyi={M\bibinitperiod},
+           given={Swati},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a27c4e7d5c7597cdd890b775949701c4}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={Jing\bibnamedelima Chuan},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f795ea47fda6f31cb5865b5ce0065242}
+      \strng{fullhash}{ab4db70f9e8ade1f0a522d94dc8cec7a}
+      \strng{bibnamehash}{ab4db70f9e8ade1f0a522d94dc8cec7a}
+      \strng{authorbibnamehash}{ab4db70f9e8ade1f0a522d94dc8cec7a}
+      \strng{authornamehash}{f795ea47fda6f31cb5865b5ce0065242}
+      \strng{authorfullhash}{ab4db70f9e8ade1f0a522d94dc8cec7a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Facilitating dialog in the game-based learning classroom: Teacher challenges reconstructing professional identity}
+      \field{year}{2014}
+    \endentry
     \entry{coller2009effectiveness}{article}{}
       \name{author}{2}{}{%
         {{hash=40053fa8df7fb159e719e216695700b1}{%
@@ -80,6 +113,42 @@
       \field{year}{2009}
       \field{pages}{900\bibrangedash 912}
       \range{pages}{13}
+    \endentry
+    \entry{divjak2011impact}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d18b75784d62b6df391fee4e3ce4d8f6}{%
+           family={Divjak},
+           familyi={D\bibinitperiod},
+           given={Blaženka},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3985b48bc818742f68dee1df54c80df1}{%
+           family={Tomić},
+           familyi={T\bibinitperiod},
+           given={Damir},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Fakultet organizacije i informatike Sveučilišta u Zagrebu}%
+      }
+      \strng{namehash}{1c3174d0cbebc9f52a8a4964cd9b48a0}
+      \strng{fullhash}{1c3174d0cbebc9f52a8a4964cd9b48a0}
+      \strng{bibnamehash}{1c3174d0cbebc9f52a8a4964cd9b48a0}
+      \strng{authorbibnamehash}{1c3174d0cbebc9f52a8a4964cd9b48a0}
+      \strng{authornamehash}{1c3174d0cbebc9f52a8a4964cd9b48a0}
+      \strng{authorfullhash}{1c3174d0cbebc9f52a8a4964cd9b48a0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of information and organizational sciences}
+      \field{number}{1}
+      \field{title}{The impact of game-based learning on the achievement of learning goals and motivation for learning mathematics-literature review}
+      \field{volume}{35}
+      \field{year}{2011}
+      \field{pages}{15\bibrangedash 30}
+      \range{pages}{16}
     \endentry
     \entry{fishman2014empowering}{article}{}
       \name{author}{5}{}{%
@@ -209,6 +278,72 @@
       \field{pages}{84\bibrangedash 95}
       \range{pages}{12}
     \endentry
+    \entry{jaaska2022teachers}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d1b1fd932384c5c3fd0fcad367fd55be}{%
+           family={Jääskä},
+           familyi={J\bibinitperiod},
+           given={Elina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2c01509ee3bbce0c6aeeafe80edd2502}{%
+           family={Aaltonen},
+           familyi={A\bibinitperiod},
+           given={Kirsi},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{72a6489725f4bd43d4fe92ed013bd3e5}
+      \strng{fullhash}{72a6489725f4bd43d4fe92ed013bd3e5}
+      \strng{bibnamehash}{72a6489725f4bd43d4fe92ed013bd3e5}
+      \strng{authorbibnamehash}{72a6489725f4bd43d4fe92ed013bd3e5}
+      \strng{authornamehash}{72a6489725f4bd43d4fe92ed013bd3e5}
+      \strng{authorfullhash}{72a6489725f4bd43d4fe92ed013bd3e5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Project Leadership and Society}
+      \field{title}{Teachers’ experiences of using game-based learning methods in project management higher education}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{100041}
+      \range{pages}{1}
+    \endentry
+    \entry{jong2016teachers}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9e41af36fa310e112e2dfd4dcd47c532}{%
+           family={Jong},
+           familyi={J\bibinitperiod},
+           given={Morris\bibnamedelima SY},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9e41af36fa310e112e2dfd4dcd47c532}
+      \strng{fullhash}{9e41af36fa310e112e2dfd4dcd47c532}
+      \strng{bibnamehash}{9e41af36fa310e112e2dfd4dcd47c532}
+      \strng{authorbibnamehash}{9e41af36fa310e112e2dfd4dcd47c532}
+      \strng{authornamehash}{9e41af36fa310e112e2dfd4dcd47c532}
+      \strng{authorfullhash}{9e41af36fa310e112e2dfd4dcd47c532}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Educational Technology}
+      \field{number}{4}
+      \field{title}{Teachers' concerns about adopting constructivist online game-based learning in formal curriculum teaching: The VISOLE experience}
+      \field{volume}{47}
+      \field{year}{2016}
+      \field{pages}{601\bibrangedash 617}
+      \range{pages}{17}
+    \endentry
     \entry{leather2021pedagogy}{article}{}
       \name{author}{3}{}{%
         {{hash=91122aee2df2b88b0866e7e851e9aef9}{%
@@ -250,6 +385,71 @@
       \field{pages}{208\bibrangedash 226}
       \range{pages}{19}
     \endentry
+    \entry{lister2015gamification}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c9210cbe67d5c8761b9d7c2364afeb4c}{%
+           family={Lister},
+           familyi={L\bibinitperiod},
+           given={Meaghan},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Libraries}%
+      }
+      \strng{namehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{fullhash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{bibnamehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{authorbibnamehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{authornamehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{authorfullhash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Issues and Trends in Educational Technology}
+      \field{number}{2}
+      \field{title}{Gamification: The effect on student motivation and performance at the post-secondary level}
+      \field{volume}{3}
+      \field{year}{2015}
+    \endentry
+    \entry{mayer2010adding}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bcc3ded7dcfcffd5504d0475fabf58d6}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=2272c4d32ec2d7b4af14b2bb8dd64f98}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Cheryl\bibnamedelima I},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{fullhash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{bibnamehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{authorbibnamehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{authornamehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{authorfullhash}{92ee05035c41867b4eee634dc97944b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Educational Computing Research}
+      \field{number}{3}
+      \field{title}{Adding instructional features that promote learning in a game-like environment}
+      \field{volume}{42}
+      \field{year}{2010}
+      \field{pages}{241\bibrangedash 265}
+      \range{pages}{25}
+    \endentry
     \entry{mckeachie2013mckeachie}{book}{}
       \name{author}{2}{}{%
         {{hash=cc4245c22f418b7bd2edd92d695ea5f2}{%
@@ -280,6 +480,35 @@
       \field{labeltitlesource}{title}
       \field{title}{McKeachie's teaching tips}
       \field{year}{2013}
+    \endentry
+    \entry{molin2017role}{article}{}
+      \name{author}{1}{}{%
+        {{hash=523303de9c3b798ec6eec69a5686f884}{%
+           family={Molin},
+           familyi={M\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{fullhash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{bibnamehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{authorbibnamehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{authornamehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{authorfullhash}{523303de9c3b798ec6eec69a5686f884}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Serious Games and Edutainment Applications: Volume II}
+      \field{title}{The role of the teacher in game-based learning: A review and outlook}
+      \field{year}{2017}
+      \field{pages}{649\bibrangedash 674}
+      \range{pages}{26}
     \endentry
     \entry{kindergartencurriculum}{article}{}
       \name{author}{1}{}{%
@@ -411,6 +640,64 @@
       \field{pages}{15\bibrangedash 29}
       \range{pages}{15}
     \endentry
+    \entry{tahir2022blended}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5b001338524b60ca77e4176e9a3c77a0}{%
+           family={Tahir},
+           familyi={T\bibinitperiod},
+           given={Irtaza},
+           giveni={I\bibinitperiod}}}%
+        {{hash=cbc7fe29ee8f5718fc929139423e5187}{%
+           family={Van\bibnamedelima Mierlo},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1fdd8ded0f3877e56c4b8affa8f19645}{%
+           family={Radauskas},
+           familyi={R\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=704d6fd840f2507302d58a7f4f771fe1}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod}}}%
+        {{hash=989ca187825667e97a245172b7c14e3e}{%
+           family={Tracey},
+           familyi={T\bibinitperiod},
+           given={Alastair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d917f0bc79dc490428d92ca222b4a07a}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Rosa},
+           giveni={R\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{9c992163828a8efe24c35e041ab29ad5}
+      \strng{fullhash}{5440b833ca4055d4a2bb445ed0413eae}
+      \strng{bibnamehash}{5440b833ca4055d4a2bb445ed0413eae}
+      \strng{authorbibnamehash}{5440b833ca4055d4a2bb445ed0413eae}
+      \strng{authornamehash}{9c992163828a8efe24c35e041ab29ad5}
+      \strng{authorfullhash}{5440b833ca4055d4a2bb445ed0413eae}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FEBS Open bio}
+      \field{number}{7}
+      \field{title}{Blended learning in a biology classroom: Pre-pandemic insights for post-pandemic instructional strategies}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{1286}
+      \range{pages}{1}
+    \endentry
     \entry{tomavska2022let}{article}{}
       \name{author}{1}{}{%
         {{hash=499061ea42dd62f927f08594e70d5d2a}{%
@@ -438,6 +725,54 @@
       \field{year}{2022}
       \field{pages}{e55730}
       \range{pages}{-1}
+    \endentry
+    \entry{tsirulnikov2023game}{article}{}
+      \name{author}{5}{}{%
+        {{hash=512990148156a350c5bdf069046ef713}{%
+           family={Tsirulnikov},
+           familyi={T\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod}}}%
+        {{hash=da59721c7fa4ddeb42616f1c4f68f110}{%
+           family={Suart},
+           familyi={S\bibinitperiod},
+           given={Celeste},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2bfb40c7f1460df1bca849f672a93b88}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={Ream},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7926e9f939e8fe81e3ec080c0f5216bd}{%
+           family={Vulcu},
+           familyi={V\bibinitperiod},
+           given={Felicia},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d1f78e8ab7fa7c431a1bb3e1c2eccaa5}{%
+           family={Mullarkey},
+           familyi={M\bibinitperiod},
+           given={Caitlin\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{65bc215d0cf77cc7ff0381cf3e7dcd97}
+      \strng{fullhash}{059b1673ca1610f4bc30e4fea9294aa2}
+      \strng{bibnamehash}{059b1673ca1610f4bc30e4fea9294aa2}
+      \strng{authorbibnamehash}{059b1673ca1610f4bc30e4fea9294aa2}
+      \strng{authornamehash}{65bc215d0cf77cc7ff0381cf3e7dcd97}
+      \strng{authorfullhash}{059b1673ca1610f4bc30e4fea9294aa2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FEBS Open Bio}
+      \field{title}{Game on: Immersive virtual laboratory simulation improves student learning outcomes \& motivation}
+      \field{year}{2023}
+      \true{nocite}
     \endentry
     \entry{vygotsky1967play}{article}{}
       \name{author}{1}{}{%
