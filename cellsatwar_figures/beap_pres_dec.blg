@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'beap_pres_dec.blg'
+[40] biber:340> INFO - === Wed Mar  8, 2023, 12:35:02
+[48] Biber.pm:418> INFO - Reading 'beap_pres_dec.bcf'
+[85] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[93] bbl.pm:654> INFO - Writing 'beap_pres_dec.bbl' with encoding 'UTF-8'
+[93] bbl.pm:757> INFO - Output to beap_pres_dec.bbl
+[93] Biber.pm:130> WARN - The file 'beap_pres_dec.bcf' does not contain any citations!
+[93] Biber.pm:132> INFO - WARNINGS: 1
