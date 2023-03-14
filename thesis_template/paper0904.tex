@@ -3,6 +3,7 @@
 %\documentclass[onecolumn]{article}
 % \usepackage{scrtime} % for \thistime (this package MUST be listed first!)
 \DeclareUnicodeCharacter{0301}{\'{e}}
+\usepackage{float}
 \usepackage{times}
 \usepackage{graphicx}
 \usepackage{float}
@@ -134,7 +135,7 @@
 \lhead{Cells at War: Game-Based Learning} %This needs to change
 \rhead{Bianca Flaim, Alexander Turco}
 \title{\sc Cells at War: The Playfulness of Game-Based Learning}
-\author{\sc Bianca Flaim, Alexander Turco and Rosa da Silva}
+\author{\sc Alexander Turco and Rosa da Silva}
 
 \providecommand{\figref}[1]{(Figure \ref{#1})}  %what?
 \providecommand{\tabref}[1]{(Table \ref{#1})}  %what?
@@ -277,7 +278,7 @@ It is worthwhile to note the current course format of BIO1A03. Prior to 2014, BI
 
 The conversion to a blended learning approach in BIO1A03 allowed for a seamless transition to online-learning in 2019 when the COVID-19 pandemic began. During this time, the BIO1A03 instructional team began exploring other novel pedagogical approaches which could help improve student learning. The idea of using digital games to improve education has been around for quite some time, however the controversy surrounding video games in this context is still apparent.
 
-In 2021, the BIO1A03 instructional team partnered up with the George Brown College School of Design, and received support from CEWIL Canada (Co-operative Education and Work-Integrated Learning Canada), formerly known as CAFCE (Canadian Association for Co-operative Education), to design and implement an educational biological video game that could be used as an instructional and engaging teaching tool in BIO1A03. A small cohort of McMaster Univeristy Biology students and supervising professors, as well as game designers, programmers, animators, audio engineers, and artists from the George Brown College School of Design were selected to pilot this project.
+In 2021, the BIO1A03 instructional team partnered up with the George Brown College School of Design, and received support from CEWIL Canada (Co-operative Education and Work-Integrated Learning Canada), formerly known as CAFCE (Canadian Association for Co-operative Education), to design and implement an educational biological video game that could be used as an instructional and engaging teaching tool in BIO1A03. A small cohort of McMaster Univeristy Biology students and supervising professors, as well as game designers, programmers, animators, audio engineers, and artists from the George Brown College School of Design were selected to pilot this work-integrated learning project.
 
 Concept development began in September of 2021. In this phase, students from both institutions worked collaboratively to brainstorm concepts for a biological video game that would be both engaging and educational. The theme for the game was centred around single-gene diseases. Biology students from McMaster University were responsible for selecting and researching a specific single-gene disease. This information was exchanged with students from George Brown College, who in-turn provided a wealth of knowledge on how to turn these static, difficult to understand concepts into engaging gameplay mechanics. Students pitched these proposals to supervising professors who then selected the ideas and game elements that best suited the goals of the project.
 
@@ -287,17 +288,79 @@ The game production phase then began in November of 2021. Students from George B
 
 Students qualifying for participation in the survey included only those enrolled in the winter 2021 semester of BIO1A03. Students were informed about the survey prior to playing the game, through both in-class and online announcements posted on Desire to Learn. Students who did not complete the survey were informed that this would not effect course performance. Those who participated were incentivized by being entered into a draw to win prizes.
 
-\subsection{Survey Design: Qualitative Analysis of Student Feedback}
+\subsection{Survey Design: Qualitative Analysis of Student Feedback NOT DONE YET}
 
 The survey was developed and delivered through the LimeSurvey\textregistered \space platform. Students were asked a total of 14 questions regarding opinions and attitudes on their current undergraduate education, as well as feedback on game-based learning in the biology classroom. The National Survey of Student Engagement (NSSE) was used as a framework to generate the questions that were asked. NSSE questions assess the extent to which students engage in educational practices in the context of higher levels of learning (NSSE website citation). MORE HERE ABOUT NSSE...
 
 \section{Results}
 
+\subsection{Student perceptions of current undergraduate experiences}
+
+150 students enrolled in the winter 2021 session of BIO1A03 attended a game-based style lecture and completed the follow-up survey. Participants were asked a series of questions regarding their current experiences as undergraduate science students, as well as questions regarding the benefits of implementing game-based learning approaches into their classrooms. 
+
+%%%%%TIME SPENT PLAYING VIDEO GAMES
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/time_spent_playing_videogames.jpg}
+	\caption{Student responses regarding the average amount of weekly time spent playing video games}
+	\label{fig:1}
+\end{figure}
+
+%%%%%Types of courses taken by students
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/types_of_courses_taken.jpg}
+	\caption{Types of Courses Taken}
+	\label{fig:2}
+\end{figure}
+
+%%%%%During the current school year how much has your coursework emphasized the following
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/howmuch_coursework_emphasized_thefollowing.jpg}
+	\caption{How Much Has Coursework Emphasized the following}
+	\label{fig:3}
+\end{figure}
+
+%%%%%During the current school year how often would you say you have done the following
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/how_often_haveyou_done_thefollowing.jpg}
+	\caption{How often have you done the following}
+	\label{fig:4}
+\end{figure}
+
+\subsection{Student perceptions on the use of game-based learning in biology}
+
+%%%%%If game-based learning approaches were incorporated into one of your science courses, how do you think that this mode of learning can help with the following
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/how_does_gbl_help_in_science.jpg}
+	\caption{If game-based learning approaches were incorporated in your science courses}
+	\label{fig:5}
+\end{figure}
+
+%%%%% If BIO1A03 added a game-based learning component, how much would this improve your motivation to do the following?
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/ifbio1a03_added_gblcomponent.jpg}
+	\caption{If BIO1A03 added a game-based component}
+	\label{fig:6}
+\end{figure}
+
+%%%%% How likely is it that you would play the video game Cells at War on your own time, outside of class to further consolidate material taught during this class
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/how_likely_you_would_play_cellsatwar.jpg}
+	\caption{How likely is it you would play Cells at War outside of class}
+	\label{fig:7}
+\end{figure}
+
+%%%%%How prepared would you feel if you were given a quiz on Pompe Disease based on the Cells at War game, compared to studying off traditional lecture slides
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{figures_4f06/how_prepared_if_tested_on_pompe_based_off_cellsatwar.jpg}
+	\caption{How prepared would you feel if given a quiz on Pompe Disease}
+	\label{fig:8}
+\end{figure}
+
 \section{Discussion}
 
+We need to highlight in this section the use of Cells at War as an instructional tool as well as the benefits that students get out of this work integrated learning experience
+
 \section{Future Directions}
-
-
 
 \clearpage\newpage
 \section{References}
