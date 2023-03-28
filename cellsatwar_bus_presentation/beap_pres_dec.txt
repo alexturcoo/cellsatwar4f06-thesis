@@ -1,0 +1,128 @@
+##########BEAP DECEMBER 2022 SCRIPT/WHAT TO SAY##############
+
+######TITLE SLIDE######
+Hello Everyone, my name is Alexander Turco and I am a fourth year thesis student in Brians lab. Before I begin I just want to say thank you to everyone in advance for making it. I also want to say how amazing it feels to be up here presenting to a crowd that I've learned so much from. 
+
+Today I am going to be talking about how I am trying to use an Approximate Bayesian Computation to estimate evolutionary parameters like mutation and indel rates for protein low complexity Regions. 
+
+######Overview######
+Before we begin heres just a little framework of some things I'm gonna touch on in this short period of time.
+- I will first provide some background information on Low Complexity Regions (what defines them, how do they look, why are they important, types)
+- Then I'm going to talk about some Questions that have been kind of guiding the study as well as things I'm exploring 
+- Next I'll describe the approach I am using to actually answer some of those questions (Model based inference, bayesian statistics, ABC MCMC)
+- And finally we will briefly touch on some results (if I have any lol) and then conclude the presentation.
+
+######What are LCR's######
+To put simply, Low complexity regions are segments of protein or DNA sequences (protein in this case on my slide) that are skewed/biased in their composition.
+- if you take a look on the slide you can see three Low Complexity Regions found in the SRP40 protein from Saccharomyces Cerivisea. The SRP40 protein is serine rich and plays a role in preribosome assembly and transport and we will be mentioning it later as well.
+- The reason for these numbers on the slide is to highlight the more formal definition of LCRs which is that They contain low information and have a low ENTROPY.
+- So on the slide you can see a value called complexity and this value is calculated using Shannon's Entropy Equation 
+
+######Shannon's Entropy######
+Here is the equation for Shannon's Entropy shown on the slide.
+- L is the number of elements, pi is the probability of occurrence, and H is the units which are measured in bits (bits because log base 2)
+- This equation measures the disorder or randomness in a system and is commonly used to search for patterns and complexity in both DNA and protein sequences
+- Just for better understanding, I show here two DNA sequences. One consists of all the same nucleotide (it is of minimal complexity) and once consists of each nucleotide being represented equally (maximal complexity)
+- The sequence made up of all the same nucleotide has an entropy of 0 (minimum for DNA sequence) and the sequence made up of equal frequencies of each nucleotide has an entropy of 2 (maximum entropy for DNA sequence)
+- So essentially the lower the entropy, the less random the sequence is and vice versa!
+
+######LCR's Present in Unique Ways 1######
+So hopefully at this point (after all the LCR presentations lol) everybody understands how LCRs are defined.
+- It is also important to mention that although LCRs share an overall low diversity of amino acids or nucleotides, there are so many different ways they present this low diversity
+- All the examples I am showing in the next few slides are different forms of LCRs based on amino acid periodicity but it is important to understand that not all LCRs contain patterns like these but rather they deviate from a random composition
+- THe first example shown here are homorepeats - these are consecutive runs of a single residues and the reason for mentioning them is beecause of the role they play in human diseases (we will talk about that later).
+
+######LCR's Present in Unique Ways 2######
+- The second example shown are direpeats - these are consecutive runs of two ordered different residues, you can see this highlighted by the difference in color showing the different amino acids
+
+######LCR's Present in Unique Ways 3######
+- Finally we have tandem repeats. These are sequences of typically 1-6 residues that are repeated numerous times.
+- Regions composed of tandem repeats are commonly called microsatellites and these are actually one of the best studied types of LCR's
+- The number of repeated segments within a microsatellite sequence differs among individuals which makes these sequences interesting. This difference in the number of repeated segments makes microsatellites useful as polymorphic markers for studying inheritence patterns in families, or for creating DNA fingerprints from crime scene samples. 
+
+######LCR's Are Hypermutable######
+- So another characteristic of Low complexity regions is that they have been found to be hypermutable - meaning over evolutionary time, it is thought that they frequently gained and lost repeats
+- Just to provide a little evidence for this, there was a study done using 2 different species of Drosophila (I know we have a lot of Drosophila lovers in the room so I thought this would be fitting lol). 
+- Essentially the researchers performed an interspecific comparison between the mastermind gene in Drosophila Melanogaster and Drosophila Virilis which are believed to have separated approximately 60x10^6 years ago (enough time for nonessential sequences to diverge).
+- The mastermind gene encodes a highly repetitive nuclear protein required for neural development. Part of this gene is highly conserved but extensive variation is noted in homopolymer domains which flank the conserved region.
+- The researchers characterized these into unique and repetitive regions and discovered that repetitive regions are characterized by almost a threefold higher rate of amino acid replacement.
+
+######Proposed Mechanisms of LCR Evolution 1######
+- There are two mechanisms that have been proposed which try to explain the evolution of Low complexity regions/repetitive regions.
+- The first being polymerase Slippage or Slipped Strand Mispairing - there are a lot of names for this lol.
+- During replication, what can sometimes happen is that the DNA polymerase and the newwly synthesized DNA strand complex can temporarily dissociate from the template DNA
+- In areas that have repetitive sequences, as shown on the slide, the polymerase may join back with the template strand in a position one or two repeats ahead or behind where it left off
+- What Im showing here is just a very simple example of the polymerase slipping forward and backwards. 
+- Slipping forward means the polymerase skips one of the template repeats resulting in the deletion of the repeat in the newly synthesized strand.
+- Slipping backwards means the polymerase copies an extra repeat into the newly synthesized DNA strand
+
+######Proposed Mechanisms of LCR Evolution 2######
+- The second Proposed Mechanism of LCR Evolution is unequal recombination
+- So what Ive shown on the slide is a simple illustration of unequal crossing over between repetitive runs on homologous chromosomes during meiosis.
+- Homologous chromosomes are shown in light blue and tan, repetitive DNA strands are shown in red and green - When unequal crossing over occurs (shown on the left), it can result in the reciprocal appearance of expanded and contracted repeats (shown on the right). 
+
+######Why care about LCR's and Their Evolution?######
+- But why should we care about LCRs and the way they evolve anyways?
+- Because LCRs are implicated in a wide variety of diseases as well as Biological processes
+- LCRs can appear as trinucleotide repeats and these form repeated units of 3 nucleotides and are a well known form of deleterious mutation in humans - in fact these trinucleotide repeats are found to be associated with several human neeurodegenerative diseases including Huntington's disease, fragile X syndrom, muscular dystrophy and others.
+- LCRs have also been found to be associated with important biological processes such as genetic recombination and antigen diversification and this is actually evident through studying the genomes of bacteria such as neisseria meningitidis which causes meningococcal disease. 
+- This bacteria is abundant in LCRs and they are actually thought to cause phase variation (phenotypic changes resulting from genetic alterations) which can give the bacteria the ability to change adherance patterns to host cells (helps with survival of pathogens)
+
+######What will this study Explore######
+- Okay so with that little background (which im sure youre all sick of now) we can move into some of things I'm trying to explore in the study
+- First off is estimating evolutionary parameters. Using a type of model based statistical inference that includes a simulation (which we will get into soon), I am essentially trying to estimate distributions of possible parameters like mutation and indel rates in order to better understand how LCRs evolve.
+
+- While exploring these parameter values we will also be exploring various models of indels for LCRs. For example, seeing if the length of a repetitive segment is a factor involved in insertion or deletion of repetitive segments
+
+- Finally Im also using summary statistics (quantitivate way to summarize/explain data) in this study. These summary statistics must capture important information about LCR's so for example, the number of LCRs in a protein sequence, or the Average entropy of those LCRs.
+
+- The simplest way to put it, we want a randomly generated protein sequence to be mutated over and over again under certain parameter values. Then we want to compare the simulated protein to a protein which we know the sequence for (in my case I chose SRP40 - I think I mentioned this above, has lots of repeats) and assess the difference in values of their summary statistics.
+
+######What approach will be taken 1######
+- Going back to what I previously mentioned Im gonna be using a specific type of model based inference approach (which I will get to) but it is important to understand the main principles of model based inference first and for the purpose of this study we will focus on model based inference in the Bayesian paradigm (not freqentist)
+- Any model based statistical inference generally requires DATA, A MODEL, and A SET OF MODEL PARAMETERS and the task often revolves around calculating the likelihood fucntion which is shown here on the slide. 
+- This likelihood function represents the probability of the observed data under a chosen model. It basically quantifies how well the data supports the parameter values and the model
+
+######What approach will be taken 2######
+- This likelihood is  then used as a step towards calculating the posterior distribution.
+- To a Byaesian statistician, the posterior disribution is the complete answer the question, what is the value of the parameter?
+- Posterior distributions are important because they will be what provides the interval estimates for parameter values which describe the uncertainty about the parameter.
+
+######Why use an ABC-MCMC 1######
+- But we are at a point in time where both the complexity and magnitude of available data are increasing
+- Because of this increase, many current model-based analyses have become intractable because calculation of the likelihood becomes extremely difficult
+- For example there are a lack of models which explain insertions and deletions and the reason for this is because insertions and deletions alter the landscape of a sequence and make the calculation of the likelihood extremely difficult
+
+######Why use an ABC-MCMC 2######
+- Thats why in this Study we are going to use an Approximate Bayesian Computation.
+- An approximate bayesian computation is rooted in Bayesian Statistics (so most things I've mentioned before apply to this) but what differs is that the likelihood calculation is replaced by a simulation step which basically estimates the likelihood function and allows for a posterior distribution to be created.
+- Replacing the likelihood function with a simulation step is beneficial in areas such as the inference of genetic networks because as the complexity of the network grows, we are still able to perform a simulation where we would normally struggle to calculate the likelihood as complexity increased.
+
+######MCMC for ABC - Marjoram######
+- So shown here is the general method/algorithm for an ABC MCMC which is the type of ABC we are utilizing. (taken from Marjoram 2003 where he first called the paper an MCMC method without the use of likelihoods)
+- It starts with a selected parameter value and proposes a move to a new parameter value based on a proposal distribution
+- Then using this new parameter value, we generate a simulated dataset and calculate summary statistics 
+- the summary statistics make it possible to quantitatively compare differences between the dataset we simulated and the observed dataset (real data)
+- Then we assess how similar the summary statistics between the observed data and simulated data are (there are many ways to do this, one way being to calculate a distance between the summary statistics). If this difference is less than a certain threshold value (epsilon), then we continue to the next step, otherwise we remain at our initial parameter and go back to step 1
+- So essentially if the difference between summary statistics is small, the hastings ratio is calculated and the proposed parameter can be accepted with a probability equal to the value of the hastings ratio. THen we return to step 1.
+
+######MCMC for ABC: Modified Algorithm 1######
+So now I'm gonna go through the same algorithm, but this time explaining how Im using it in my study.
+- First things first we propose a move from one parameter value to another according to the normal distribution
+
+######MCMC for ABC: Modified Algorithm 2######
+- Step 2 - Next we generate a random protein sequence and use the new parameter value to mutate the random protein sequence over a number of generations (testing with 2000 now).
+
+######MCMC for ABC: Modified Algorithm 3######
+- Once we mutate the simulated protein, we then calculate our summary statistics - right now we have a vector of 3 summary statistics - they are length of the protein, number of LCRs, and the average entropy of the LCRs
+- At this point I am also going to mention that the same summary statistics are used for the observed protein (what 
+
+######MCMC for ABC: Modified Algorithm 4######
+- Now we need some way of quantitatively assessing how similar the summary statistics between the observed and simulated data are.
+- Using the summary statistics we calculated for the simulated and observed data, we calculate the euclidean distance between the vectors of summary statistics and if this distance is larger (summary statistics not similar) than some threshold value, we reject the proposed parameter value but if the calculated distance is smaller than the threshold value (summary statistics similar), we accept the proposed parameter value
+
+######MCMC for ABC: Modified Algorithm 5######
+- When we accept the proposed parameter, it essentially means we use the parameter in calculating the posterior distribution
+
+######MCMC for ABC: Modified Algorithm 6######
+- We then return to step 1 and iterate through this for a desired number of simulations.
