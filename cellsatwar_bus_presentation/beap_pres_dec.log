@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.6)  5 APR 2023 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.6)  5 APR 2023 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1504,19 +1504,24 @@ Package pdftex.def Info: wgong.jpeg  used on input line 350.
 [20
 
  <./tid_thumbnail.png> <./wgong.jpeg>]
-<gbc.png, id=376, 1204.5pt x 777.90625pt>
+<credits.png, id=376, 295.1025pt x 356.33125pt>
+File: credits.png Graphic file (type png)
+<use credits.png>
+Package pdftex.def Info: credits.png  used on input line 376.
+(pdftex.def)             Requested size: 113.81068pt x 142.26355pt.
+<gbc.png, id=377, 1204.5pt x 777.90625pt>
 File: gbc.png Graphic file (type png)
 <use gbc.png>
-Package pdftex.def Info: gbc.png  used on input line 375.
+Package pdftex.def Info: gbc.png  used on input line 376.
 (pdftex.def)             Requested size: 56.90189pt x 28.45209pt.
-<cewil.jpg, id=377, 2007.5pt x 536.0025pt>
+<cewil.jpg, id=378, 2007.5pt x 536.0025pt>
 File: cewil.jpg Graphic file (type jpg)
 <use cewil.jpg>
-Package pdftex.def Info: cewil.jpg  used on input line 375.
-(pdftex.def)             Requested size: 142.25475pt x 56.89941pt.
+Package pdftex.def Info: cewil.jpg  used on input line 376.
+(pdftex.def)             Requested size: 113.79767pt x 28.44562pt.
  [21
 
- <./gbc.png> <./cewil.jpg>]
+ <./credits.png> <./gbc.png> <./cewil.jpg>]
 \tf@nav=\write7
 \openout7 = `beap_pres_dec.nav'.
 
@@ -1526,8 +1531,7 @@ Package pdftex.def Info: cewil.jpg  used on input line 375.
 \tf@snm=\write9
 \openout9 = `beap_pres_dec.snm'.
 
-
-(./beap_pres_dec.aux)
+ (./beap_pres_dec.aux)
 Package rerunfilecheck Info: File `beap_pres_dec.out' has not changed.
 (rerunfilecheck)             Checksum: 7ED7C8516C33850E896B4F2261D7971D;674.
 Package logreq Info: Writing requests to 'beap_pres_dec.run.xml'.
@@ -1535,10 +1539,10 @@ Package logreq Info: Writing requests to 'beap_pres_dec.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35616 strings out of 478287
- 737851 string characters out of 5849290
+ 35623 strings out of 478287
+ 737959 string characters out of 5849290
  1395401 words of memory out of 5000000
- 53076 multiletter control sequences out of 15000+600000
+ 53082 multiletter control sequences out of 15000+600000
  479164 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,746b,1391s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1573,10 +1577,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on beap_pres_dec.pdf (21 pages, 11214178 bytes).
+Output written on beap_pres_dec.pdf (21 pages, 11498639 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
+ 434 PDF objects out of 1000 (max. 8388607)
  281 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
- 639 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 644 words of extra memory for PDF output out of 10000 (max. 10000000)
 
