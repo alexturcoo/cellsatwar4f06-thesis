@@ -1,0 +1,316 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{brown1989situated}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ba3c0fa94135bbee7f9cd5e2c54c11d8}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima Seely},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f81dbc70a401559ebbd08b8d5f484286}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ead3294692a7a762d746415e23c93e45}{%
+           family={Duguid},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{35605441719333a4fe73dbf814a1aab6}
+      \strng{fullhash}{35605441719333a4fe73dbf814a1aab6}
+      \strng{bibnamehash}{35605441719333a4fe73dbf814a1aab6}
+      \strng{authorbibnamehash}{35605441719333a4fe73dbf814a1aab6}
+      \strng{authornamehash}{35605441719333a4fe73dbf814a1aab6}
+      \strng{authorfullhash}{35605441719333a4fe73dbf814a1aab6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{1989}
+      \field{number}{1}
+      \field{title}{Situated cognition and the culture of learning}
+      \field{volume}{18}
+      \field{year}{1989}
+      \field{pages}{32\bibrangedash 42}
+      \range{pages}{11}
+    \endentry
+    \entry{coller2009effectiveness}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=40053fa8df7fb159e719e216695700b1}{%
+           family={Coller},
+           familyi={C\bibinitperiod},
+           given={Brianno\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e82bef9bc0aca6fd515b7e3662c4b1a}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{fullhash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{bibnamehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{authorbibnamehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{authornamehash}{8d3236d7e201b42d00f07894f2a83e87}
+      \strng{authorfullhash}{8d3236d7e201b42d00f07894f2a83e87}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Education}
+      \field{number}{3}
+      \field{title}{Effectiveness of using a video game to teach a course in mechanical engineering}
+      \field{volume}{53}
+      \field{year}{2009}
+      \field{pages}{900\bibrangedash 912}
+      \range{pages}{13}
+    \endentry
+    \entry{fishman2014empowering}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b7dd4b4e9d20ecd772bf0bef70455b28}{%
+           family={Fishman},
+           familyi={F\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce1d65549aae132416b10483ff4f4031}{%
+           family={Riconscente},
+           familyi={R\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=582a83128ccb93f62c4d00f4e4366501}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f28d0504cebacca763b1026e073c088b}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=986ee6ee06f56e28e9c4ec87b3b9e848}{%
+           family={Plass},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6694232029e1a4d46bd143ee1de2e2b3}
+      \strng{fullhash}{6d60ab1e05081591b4e742e769256858}
+      \strng{bibnamehash}{6694232029e1a4d46bd143ee1de2e2b3}
+      \strng{authorbibnamehash}{6694232029e1a4d46bd143ee1de2e2b3}
+      \strng{authornamehash}{6694232029e1a4d46bd143ee1de2e2b3}
+      \strng{authorfullhash}{6d60ab1e05081591b4e742e769256858}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ann Arbor, MI: University of Michigan. Retrieved from http://gamesandlearning. umich. edu/agames}
+      \field{title}{Empowering educators: Supporting student progress in the classroom with digital games}
+      \field{year}{2014}
+    \endentry
+    \entry{jan2016game}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4e5cffe82049e157df7d57c9f74f4c3}{%
+           family={Jan},
+           familyi={J\bibinitperiod},
+           given={Mingfong},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90804c42a62add9a32e6491ac4a60af6}{%
+           family={Gaydos},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{55f4cd902ebbd1014de310d5e6e2d8e8}
+      \strng{fullhash}{55f4cd902ebbd1014de310d5e6e2d8e8}
+      \strng{bibnamehash}{55f4cd902ebbd1014de310d5e6e2d8e8}
+      \strng{authorbibnamehash}{55f4cd902ebbd1014de310d5e6e2d8e8}
+      \strng{authornamehash}{55f4cd902ebbd1014de310d5e6e2d8e8}
+      \strng{authorfullhash}{55f4cd902ebbd1014de310d5e6e2d8e8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Technology}
+      \field{title}{What is game-based learning? Past, present, and future}
+      \field{year}{2016}
+      \field{pages}{6\bibrangedash 11}
+      \range{pages}{6}
+    \endentry
+    \entry{lister2015gamification}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c9210cbe67d5c8761b9d7c2364afeb4c}{%
+           family={Lister},
+           familyi={L\bibinitperiod},
+           given={Meaghan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Libraries}%
+      }
+      \strng{namehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{fullhash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{bibnamehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{authorbibnamehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{authornamehash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \strng{authorfullhash}{c9210cbe67d5c8761b9d7c2364afeb4c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Issues and Trends in Educational Technology}
+      \field{number}{2}
+      \field{title}{Gamification: The effect on student motivation and performance at the post-secondary level}
+      \field{volume}{3}
+      \field{year}{2015}
+    \endentry
+    \entry{mayer2010adding}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bcc3ded7dcfcffd5504d0475fabf58d6}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2272c4d32ec2d7b4af14b2bb8dd64f98}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Cheryl\bibnamedelima I},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{fullhash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{bibnamehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{authorbibnamehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{authornamehash}{92ee05035c41867b4eee634dc97944b0}
+      \strng{authorfullhash}{92ee05035c41867b4eee634dc97944b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Educational Computing Research}
+      \field{number}{3}
+      \field{title}{Adding instructional features that promote learning in a game-like environment}
+      \field{volume}{42}
+      \field{year}{2010}
+      \field{pages}{241\bibrangedash 265}
+      \range{pages}{25}
+    \endentry
+    \entry{molin2017role}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=523303de9c3b798ec6eec69a5686f884}{%
+           family={Molin},
+           familyi={M\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{fullhash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{bibnamehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{authorbibnamehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{authornamehash}{523303de9c3b798ec6eec69a5686f884}
+      \strng{authorfullhash}{523303de9c3b798ec6eec69a5686f884}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Serious Games and Edutainment Applications: Volume II}
+      \field{title}{The role of the teacher in game-based learning: A review and outlook}
+      \field{year}{2017}
+      \field{pages}{649\bibrangedash 674}
+      \range{pages}{26}
+    \endentry
+    \entry{tomavska2022let}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=499061ea42dd62f927f08594e70d5d2a}{%
+           family={Tomáška},
+           familyi={T\bibinitperiod},
+           given={L'ubomı́r},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{fullhash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{bibnamehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{authorbibnamehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{authornamehash}{499061ea42dd62f927f08594e70d5d2a}
+      \strng{authorfullhash}{499061ea42dd62f927f08594e70d5d2a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EMBO reports}
+      \field{number}{11}
+      \field{title}{Let's bring games into university classrooms: Specifically adapted games could greatly enhance teaching in higher education}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{e55730}
+      \range{pages}{-1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
