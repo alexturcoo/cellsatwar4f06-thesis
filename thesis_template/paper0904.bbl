@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{annetta2008video}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e3b4b798dc1f62497292245657fd3ac0}{%
+           family={Annetta},
+           familyi={A\bibinitperiod},
+           given={Leonard\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{e3b4b798dc1f62497292245657fd3ac0}
+      \strng{fullhash}{e3b4b798dc1f62497292245657fd3ac0}
+      \strng{bibnamehash}{e3b4b798dc1f62497292245657fd3ac0}
+      \strng{authorbibnamehash}{e3b4b798dc1f62497292245657fd3ac0}
+      \strng{authornamehash}{e3b4b798dc1f62497292245657fd3ac0}
+      \strng{authorfullhash}{e3b4b798dc1f62497292245657fd3ac0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory into practice}
+      \field{number}{3}
+      \field{title}{Video games in education: Why they should be used and how they are being used}
+      \field{volume}{47}
+      \field{year}{2008}
+      \field{pages}{229\bibrangedash 239}
+      \range{pages}{11}
+    \endentry
     \entry{ball2012politics}{book}{}
       \name{author}{1}{}{%
         {{hash=7eb2c7b8783bbcda785f1b12a2320507}{%
@@ -510,6 +541,89 @@
       \field{pages}{649\bibrangedash 674}
       \range{pages}{26}
     \endentry
+    \entry{moravec2010learn}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a5b17b8bdda5315c8cf439eabe53cc7e}{%
+           family={Moravec},
+           familyi={M\bibinitperiod},
+           given={Marin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ea54700ef6c0cf084b3133b10dbe5a0}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Adrienne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c205b0f843eb70ea4fb84b8c3e0063ac}{%
+           family={Aguilar-Roca},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1c0bf338bfac060412672eacd502b1c7}{%
+           family={O'Dowd},
+           familyi={O\bibinitperiod},
+           given={Diane\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Am Soc Cell Biol}%
+      }
+      \strng{namehash}{dcdcc8e567dcd5ea9653a4fc15602464}
+      \strng{fullhash}{9a457c1695395fed771b0415979fd0bf}
+      \strng{bibnamehash}{9a457c1695395fed771b0415979fd0bf}
+      \strng{authorbibnamehash}{9a457c1695395fed771b0415979fd0bf}
+      \strng{authornamehash}{dcdcc8e567dcd5ea9653a4fc15602464}
+      \strng{authorfullhash}{9a457c1695395fed771b0415979fd0bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CBE—Life Sciences Education}
+      \field{number}{4}
+      \field{title}{Learn before lecture: A strategy that improves learning outcomes in a large introductory biology class}
+      \field{volume}{9}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{473\bibrangedash 481}
+      \range{pages}{9}
+    \endentry
+    \entry{o2009garage}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c0bf338bfac060412672eacd502b1c7}{%
+           family={O'Dowd},
+           familyi={O\bibinitperiod},
+           given={Diane\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c205b0f843eb70ea4fb84b8c3e0063ac}{%
+           family={Aguilar-Roca},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Am Soc Cell Biol}%
+      }
+      \strng{namehash}{7fad0e21428d7d20d987819a605671e9}
+      \strng{fullhash}{7fad0e21428d7d20d987819a605671e9}
+      \strng{bibnamehash}{7fad0e21428d7d20d987819a605671e9}
+      \strng{authorbibnamehash}{7fad0e21428d7d20d987819a605671e9}
+      \strng{authornamehash}{7fad0e21428d7d20d987819a605671e9}
+      \strng{authorfullhash}{7fad0e21428d7d20d987819a605671e9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CBE—Life Sciences Education}
+      \field{number}{2}
+      \field{title}{Garage demos: using physical models to illustrate dynamic aspects of microscopic biological processes}
+      \field{volume}{8}
+      \field{year}{2009}
+      \field{pages}{118\bibrangedash 122}
+      \range{pages}{5}
+    \endentry
     \entry{kindergartencurriculum}{article}{}
       \name{author}{1}{}{%
         {{hash=aa57ccae7f53819db38b702e7967ed0a}{%
@@ -772,7 +886,6 @@
       \field{journaltitle}{FEBS Open Bio}
       \field{title}{Game on: Immersive virtual laboratory simulation improves student learning outcomes \& motivation}
       \field{year}{2023}
-      \true{nocite}
     \endentry
     \entry{vygotsky1967play}{article}{}
       \name{author}{1}{}{%

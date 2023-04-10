@@ -14,6 +14,6 @@
 \contentsline {subsection}{\numberline {}Student perceptions on the use of game-based learning in biology}{13}{subsection.4.2}%
 \contentsline {section}{\numberline {}Discussion}{17}{section.5}%
 \contentsline {subsection}{\numberline {}Student benefits of game-based learning}{17}{subsection.5.1}%
-\contentsline {subsection}{\numberline {}Benefits of the game-design process for educators and students}{17}{subsection.5.2}%
-\contentsline {section}{\numberline {}Future Directions}{17}{section.6}%
-\contentsline {section}{\numberline {}References}{18}{section.7}%
+\contentsline {subsection}{\numberline {}Benefits of the game-design process for educators and students}{18}{subsection.5.2}%
+\contentsline {section}{\numberline {}Future Directions}{18}{section.6}%
+\contentsline {section}{\numberline {}References}{19}{section.7}%
