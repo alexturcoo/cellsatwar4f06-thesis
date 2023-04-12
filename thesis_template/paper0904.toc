@@ -1,19 +1,18 @@
-\contentsline {section}{\numberline {}Abstract}{4}{section.1}%
-\contentsline {section}{\numberline {}Literature Review/Proposal}{5}{section.2}%
-\contentsline {subsection}{\numberline {}Gamification of Learning}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {}What Happens to Play Beyond the Formative Years?}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {}Do Games Help or Hurt Learning: The Debate Over Game-Based Learning}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {}The Benefits of Using Video Games at the Post-secondary Level}{6}{subsection.2.4}%
-\contentsline {section}{\numberline {}Materials and Methods}{7}{section.3}%
-\contentsline {subsection}{\numberline {}Study Setting and Context}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {}Video Game Design/Creation}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {}Study Participants}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {}Survey Design: Qualitative Analysis of Student Feedback NOT DONE YET}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {}Results}{10}{section.4}%
-\contentsline {subsection}{\numberline {}Student perceptions of current undergraduate experiences}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {}Student perceptions on the use of game-based learning in biology}{13}{subsection.4.2}%
-\contentsline {section}{\numberline {}Discussion}{17}{section.5}%
-\contentsline {subsection}{\numberline {}Student benefits of game-based learning}{17}{subsection.5.1}%
-\contentsline {subsection}{\numberline {}Benefits of the game-design process for educators and students}{18}{subsection.5.2}%
-\contentsline {section}{\numberline {}Future Directions}{18}{section.6}%
-\contentsline {section}{\numberline {}References}{19}{section.7}%
+\contentsline {section}{\numberline {}Abstract}{3}{section.1}%
+\contentsline {section}{\numberline {}Literature Review/Proposal}{4}{section.2}%
+\contentsline {subsection}{\numberline {}Gamification of Learning}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {}What Happens to Play Beyond the Formative Years?}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {}Do Games Help or Hurt Learning: The Debate Over Game-Based Learning}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {}The Benefits of Using Video Games at the Post-secondary Level}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {}Materials and Methods}{6}{section.3}%
+\contentsline {subsection}{\numberline {}Study Setting and Context}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {}Video Game Design/Creation}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {}Study Participants}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {}Survey Design: Qualitative Analysis of Student Feedback NOT DONE YET}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {}Results}{9}{section.4}%
+\contentsline {subsection}{\numberline {}Student perceptions of current undergraduate experiences}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {}Student perceptions on the use of game-based learning in biology}{12}{subsection.4.2}%
+\contentsline {section}{\numberline {}Discussion}{16}{section.5}%
+\contentsline {subsection}{\numberline {}Student benefits of game-based learning}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {}Benefits of the game-design process for educators and students}{17}{subsection.5.2}%
+\contentsline {section}{\numberline {}References}{19}{section.6}%
