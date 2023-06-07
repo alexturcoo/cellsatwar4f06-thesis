@@ -51,16 +51,13 @@
 \logo{\includegraphics[height=1cm, width=1cm]{logo.png}}
 
 % Bibliography stuff
-\usepackage[natbib=true, sorting=nyt, style=authoryear-comp]{biblatex}
-\addbibresource{ABC1.bib}
-
+\usepackage[backend=biber, giveninits=true, doi=false, isbn=false, natbib=true, url=true, eprint=false, style=numeric, sorting=nyt, sortcites=ynt, maxcitenames=2, maxbibnames=10, minbibnames = 10, uniquename=false, uniquelist=false]{biblatex} % can change the maxbibnames to cut long author lists to specified length followed by et al., currently set to 99.
+\addbibresource{ABC1.bib} % The filename of the bibliography
 %Extra packages
 \usepackage{makecell}
 
 %For itemize
 \setbeamertemplate{itemize item}[triangle]
-
-
 
 \begin{document}
 	
@@ -108,7 +105,8 @@
 			{\color{blue}\textbf{drill and practice}}, and {\color{blue}\textbf{content mastery}} \newline
 			\item In the digital era, game-based learning commonly refers to the use of {\color{blue}\textbf{digital games}} as effective instructional tools which also help develop {\color{blue}\textbf{digital proficiency}} 
 			
-			\footnotetext[1]{\tiny\cite{brown1989situated, jan2016game}}
+			
+		\tiny\footcite{brown1989situated, jan2016game}
 		\end{itemize}
 		
 	\end{frame}
@@ -144,7 +142,7 @@
 			\end{itemize}
 		\end{block}
 	
-	\footnotetext[2]{\tiny\cite{coller2009effectiveness, tomavska2022let}}
+	{\tiny\footcite{coller2009effectiveness, tomavska2022let}}
 	
 	\end{frame}
 
@@ -157,7 +155,7 @@
 			
 		\end{enumerate}
 	
-	\footnotetext[3]{\tiny\cite{lister2015gamification,mayer2010adding,molin2017role,fishman2014empowering}}
+	{\tiny\footcite{lister2015gamification,mayer2010adding,molin2017role,fishman2014empowering}}
 		
 	\end{frame}
 
@@ -370,9 +368,17 @@
 				\includegraphics[width=2cm, height=1cm]{gbc.png}	
 				\includegraphics[width=4cm, height=1cm]{cewil.jpg}
 			\end{column}
-		\end{columns}		
+		\end{columns}
+	\end{frame}		
 		
-	
+	\section{References}
+	\begin{frame}[allowframebreaks]
+		\frametitle{References}
+		\nocite{*}
+		\printbibliography[heading=none, sorting=nyt]
+		\newpage
 	\end{frame}
+	
+	
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.6)  5 APR 2023 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  6 JUN 2023 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -936,7 +936,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count398
@@ -1054,16 +1054,11 @@ File: blx-natbib.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
-Package biblatex Info: ... file 'authoryear-comp.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
-File: authoryear-comp.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -1071,23 +1066,22 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count475
 \c@bbx:relatedtotal=\count476
-)))
-Package biblatex Info: Trying to load citation style 'authoryear-comp'...
-Package biblatex Info: ... file 'authoryear-comp.cbx' found.
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
-File: authoryear-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
@@ -1131,24 +1125,24 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
  (./beap_pres_dec.aux)
 \openout1 = `beap_pres_dec.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1206,7 +1200,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1219,9 +1213,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count486
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./beap_pres_dec.out) (./beap_pres_dec.out)
 \@outlinefile=\write6
@@ -1267,32 +1261,32 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'beap_pres_dec.bbl' found.
 
 (./beap_pres_dec.bbl)
-Package biblatex Info: Reference section=0 on input line 65.
-Package biblatex Info: Reference segment=0 on input line 65.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
  (./beap_pres_dec.nav)
-<cellsatwar.png, id=78, 740.7675pt x 441.65pt>
+<cellsatwar.png, id=82, 740.7675pt x 441.65pt>
 File: cellsatwar.png Graphic file (type png)
 <use cellsatwar.png>
-Package pdftex.def Info: cellsatwar.png  used on input line 75.
+Package pdftex.def Info: cellsatwar.png  used on input line 72.
 (pdftex.def)             Requested size: 199.16216pt x 113.80869pt.
 
-Overfull \vbox (11.92116pt too high) detected at line 75
+Overfull \vbox (11.92116pt too high) detected at line 72
  []
 
-<logo.png, id=80, 305.14pt x 326.21875pt>
+<logo.png, id=84, 305.14pt x 326.21875pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 75.
+Package pdftex.def Info: logo.png  used on input line 72.
 (pdftex.def)             Requested size: 28.44849pt x 28.45247pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logo.png> <./cellsatwar.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 114
+LaTeX Font Info:    Trying to load font information for U+msa on input line 112
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 114
+LaTeX Font Info:    Trying to load font information for U+msb on input line 112
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1309,70 +1303,70 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [6
 
 ]
-Overfull \hbox (12.45963pt too wide) in paragraph at lines 223--223
+Overfull \hbox (12.45963pt too wide) in paragraph at lines 221--221
 [][]  
  []
 
 [7
 
 ]
-<asset1.png, id=254, 519.9425pt x 418.56375pt>
+<asset1.png, id=258, 519.9425pt x 418.56375pt>
 File: asset1.png Graphic file (type png)
 <use asset1.png>
-Package pdftex.def Info: asset1.png  used on input line 240.
+Package pdftex.def Info: asset1.png  used on input line 238.
 (pdftex.def)             Requested size: 113.80855pt x 85.35266pt.
-<asset2.png, id=255, 929.4725pt x 932.48375pt>
+<asset2.png, id=259, 929.4725pt x 932.48375pt>
 File: asset2.png Graphic file (type png)
 <use asset2.png>
-Package pdftex.def Info: asset2.png  used on input line 240.
+Package pdftex.def Info: asset2.png  used on input line 238.
 (pdftex.def)             Requested size: 113.8011pt x 85.357pt.
 
-Overfull \hbox (0.85048pt too wide) in paragraph at lines 240--240
+Overfull \hbox (0.85048pt too wide) in paragraph at lines 238--238
 [][] 
  []
 
 
-Overfull \hbox (0.84303pt too wide) in paragraph at lines 240--240
+Overfull \hbox (0.84303pt too wide) in paragraph at lines 238--238
 []  
  []
 
-<asset3.png, id=256, 925.056pt x 740.0448pt>
+<asset3.png, id=260, 925.056pt x 740.0448pt>
 File: asset3.png Graphic file (type png)
 <use asset3.png>
-Package pdftex.def Info: asset3.png  used on input line 240.
+Package pdftex.def Info: asset3.png  used on input line 238.
 (pdftex.def)             Requested size: 113.81085pt x 85.35744pt.
-<asset4.png, id=257, 332.74312pt x 283.81032pt>
+<asset4.png, id=261, 332.74312pt x 283.81032pt>
 File: asset4.png Graphic file (type png)
 <use asset4.png>
-Package pdftex.def Info: asset4.png  used on input line 240.
+Package pdftex.def Info: asset4.png  used on input line 238.
 (pdftex.def)             Requested size: 113.80643pt x 85.35594pt.
 
-Overfull \hbox (0.85278pt too wide) in paragraph at lines 240--240
+Overfull \hbox (0.85278pt too wide) in paragraph at lines 238--238
 [][] 
  []
 
 
-Overfull \hbox (0.84836pt too wide) in paragraph at lines 240--240
+Overfull \hbox (0.84836pt too wide) in paragraph at lines 238--238
 []  
  []
 
-<asset5.png, id=258, 1284.8pt x 722.7pt>
+<asset5.png, id=262, 1284.8pt x 722.7pt>
 File: asset5.png Graphic file (type png)
 <use asset5.png>
-Package pdftex.def Info: asset5.png  used on input line 240.
+Package pdftex.def Info: asset5.png  used on input line 238.
 (pdftex.def)             Requested size: 113.80379pt x 85.35284pt.
-<asset6.png, id=259, 925.056pt x 740.0448pt>
+<asset6.png, id=263, 925.056pt x 740.0448pt>
 File: asset6.png Graphic file (type png)
 <use asset6.png>
-Package pdftex.def Info: asset6.png  used on input line 240.
+Package pdftex.def Info: asset6.png  used on input line 238.
 (pdftex.def)             Requested size: 113.81085pt x 85.35744pt.
 
-Overfull \hbox (0.84572pt too wide) in paragraph at lines 240--240
+Overfull \hbox (0.84572pt too wide) in paragraph at lines 238--238
 [][] 
  []
 
 
-Overfull \hbox (0.85278pt too wide) in paragraph at lines 240--240
+Overfull \hbox (0.85278pt too wide) in paragraph at lines 238--238
 []  
  []
 
@@ -1380,105 +1374,105 @@ Overfull \hbox (0.85278pt too wide) in paragraph at lines 240--240
 
  <./asset1.png> <./asset2.png> <./asset3.png (PNG copy)> <./asset4.png> <./asse
 t5.png> <./asset6.png>]
-<pompe_thumbnail.png, id=272, 1793.70125pt x 1002.74625pt>
+<pompe_thumbnail.png, id=276, 1793.70125pt x 1002.74625pt>
 File: pompe_thumbnail.png Graphic file (type png)
 <use pompe_thumbnail.png>
-Package pdftex.def Info: pompe_thumbnail.png  used on input line 245.
+Package pdftex.def Info: pompe_thumbnail.png  used on input line 243.
 (pdftex.def)             Requested size: 284.50743pt x 199.16864pt.
  [9
 
  <./pompe_thumbnail.png>]
-<nsse.png, id=282, 352.31625pt x 144.54pt>
+<nsse.png, id=286, 352.31625pt x 144.54pt>
 File: nsse.png Graphic file (type png)
 <use nsse.png>
-Package pdftex.def Info: nsse.png  used on input line 262.
+Package pdftex.def Info: nsse.png  used on input line 260.
 (pdftex.def)             Requested size: 142.2626pt x 56.90408pt.
  [10
 
  <./nsse.png>]
-<time_spent_playing_videogames.jpg, id=291, 2710.125pt x 1355.0625pt>
+<time_spent_playing_videogames.jpg, id=295, 2710.125pt x 1355.0625pt>
 File: time_spent_playing_videogames.jpg Graphic file (type jpg)
 <use time_spent_playing_videogames.jpg>
 Package pdftex.def Info: time_spent_playing_videogames.jpg  used on input line 
-274.
+272.
 (pdftex.def)             Requested size: 312.96045pt x 199.15665pt.
 
-Overfull \vbox (4.71521pt too high) detected at line 274
+Overfull \vbox (4.71521pt too high) detected at line 272
  []
 
 [11
 
  <./time_spent_playing_videogames.jpg>]
-<types_of_courses_taken.jpg, id=299, 2710.125pt x 1129.21875pt>
+<types_of_courses_taken.jpg, id=303, 2710.125pt x 1129.21875pt>
 File: types_of_courses_taken.jpg Graphic file (type jpg)
 <use types_of_courses_taken.jpg>
-Package pdftex.def Info: types_of_courses_taken.jpg  used on input line 280.
+Package pdftex.def Info: types_of_courses_taken.jpg  used on input line 278.
 (pdftex.def)             Requested size: 312.96045pt x 170.70224pt.
  [12
 
  <./types_of_courses_taken.jpg>]
-<how_often_haveyou_done_thefollowing.jpg, id=307, 3613.5pt x 2032.59375pt>
+<how_often_haveyou_done_thefollowing.jpg, id=311, 3613.5pt x 2032.59375pt>
 File: how_often_haveyou_done_thefollowing.jpg Graphic file (type jpg)
 <use how_often_haveyou_done_thefollowing.jpg>
 Package pdftex.def Info: how_often_haveyou_done_thefollowing.jpg  used on input
- line 286.
+ line 284.
 (pdftex.def)             Requested size: 312.96045pt x 170.70569pt.
 
 [13
 
  <./how_often_haveyou_done_thefollowing.jpg>]
-<how_does_gbl_help_in_science.jpg, id=316, 3613.5pt x 2032.59375pt>
+<how_does_gbl_help_in_science.jpg, id=320, 3613.5pt x 2032.59375pt>
 File: how_does_gbl_help_in_science.jpg Graphic file (type jpg)
 <use how_does_gbl_help_in_science.jpg>
 Package pdftex.def Info: how_does_gbl_help_in_science.jpg  used on input line 2
-95.
+93.
 (pdftex.def)             Requested size: 312.96045pt x 170.70569pt.
 
-Overfull \vbox (1.3351pt too high) detected at line 295
+Overfull \vbox (1.3351pt too high) detected at line 293
  []
 
 [14
 
  <./how_does_gbl_help_in_science.jpg>]
-<howmuch_coursework_emphasized_thefollowing.jpg, id=324, 3613.5pt x 2032.59375p
+<howmuch_coursework_emphasized_thefollowing.jpg, id=328, 3613.5pt x 2032.59375p
 t>
 File: howmuch_coursework_emphasized_thefollowing.jpg Graphic file (type jpg)
 <use howmuch_coursework_emphasized_thefollowing.jpg>
 Package pdftex.def Info: howmuch_coursework_emphasized_thefollowing.jpg  used o
-n input line 301.
+n input line 299.
 (pdftex.def)             Requested size: 312.96045pt x 170.70569pt.
  [15
 
  <./howmuch_coursework_emphasized_thefollowing.jpg>]
-<ifbio1a03_added_gblcomponent.jpg, id=332, 3613.5pt x 2032.59375pt>
+<ifbio1a03_added_gblcomponent.jpg, id=336, 3613.5pt x 2032.59375pt>
 File: ifbio1a03_added_gblcomponent.jpg Graphic file (type jpg)
 <use ifbio1a03_added_gblcomponent.jpg>
 Package pdftex.def Info: ifbio1a03_added_gblcomponent.jpg  used on input line 3
-10.
+08.
 (pdftex.def)             Requested size: 312.96045pt x 170.70569pt.
 
-Overfull \vbox (7.86426pt too high) detected at line 310
+Overfull \vbox (7.86426pt too high) detected at line 308
  []
 
 [16
 
  <./ifbio1a03_added_gblcomponent.jpg>]
-<how_likely_you_would_play_cellsatwar.jpg, id=340, 2710.125pt x 1355.0625pt>
+<how_likely_you_would_play_cellsatwar.jpg, id=344, 2710.125pt x 1355.0625pt>
 File: how_likely_you_would_play_cellsatwar.jpg Graphic file (type jpg)
 <use how_likely_you_would_play_cellsatwar.jpg>
 Package pdftex.def Info: how_likely_you_would_play_cellsatwar.jpg  used on inpu
-t line 316.
+t line 314.
 (pdftex.def)             Requested size: 312.96045pt x 170.70569pt.
  [17
 
  <./how_likely_you_would_play_cellsatwar.jpg>]
-<how_prepared_if_tested_on_pompe_based_off_cellsatwar.jpg, id=348, 2710.125pt x
+<how_prepared_if_tested_on_pompe_based_off_cellsatwar.jpg, id=352, 2710.125pt x
  1355.0625pt>
 File: how_prepared_if_tested_on_pompe_based_off_cellsatwar.jpg Graphic file (ty
 pe jpg)
 <use how_prepared_if_tested_on_pompe_based_off_cellsatwar.jpg>
 Package pdftex.def Info: how_prepared_if_tested_on_pompe_based_off_cellsatwar.j
-pg  used on input line 322.
+pg  used on input line 320.
 (pdftex.def)             Requested size: 312.96045pt x 170.70569pt.
  [18
 
@@ -1486,42 +1480,53 @@ pg  used on input line 322.
 [19
 
 ]
-<tid_thumbnail.png, id=365, 1793.70125pt x 1002.74625pt>
+<tid_thumbnail.png, id=369, 1793.70125pt x 1002.74625pt>
 File: tid_thumbnail.png Graphic file (type png)
 <use tid_thumbnail.png>
-Package pdftex.def Info: tid_thumbnail.png  used on input line 350.
+Package pdftex.def Info: tid_thumbnail.png  used on input line 348.
 (pdftex.def)             Requested size: 142.24002pt x 85.34705pt.
 
-Overfull \hbox (5.34775pt too wide) in paragraph at lines 350--350
+Overfull \hbox (5.34775pt too wide) in paragraph at lines 348--348
 [][][]  
  []
 
-<wgong.jpeg, id=367, 200.75pt x 200.75pt>
+<wgong.jpeg, id=371, 200.75pt x 200.75pt>
 File: wgong.jpeg Graphic file (type jpg)
 <use wgong.jpeg>
-Package pdftex.def Info: wgong.jpeg  used on input line 350.
+Package pdftex.def Info: wgong.jpeg  used on input line 348.
 (pdftex.def)             Requested size: 85.35896pt x 85.35896pt.
 [20
 
  <./tid_thumbnail.png> <./wgong.jpeg>]
-<credits.png, id=376, 295.1025pt x 356.33125pt>
+<credits.png, id=380, 295.1025pt x 356.33125pt>
 File: credits.png Graphic file (type png)
 <use credits.png>
-Package pdftex.def Info: credits.png  used on input line 376.
+Package pdftex.def Info: credits.png  used on input line 372.
 (pdftex.def)             Requested size: 113.81068pt x 142.26355pt.
-<gbc.png, id=377, 1204.5pt x 777.90625pt>
+<gbc.png, id=381, 1204.5pt x 777.90625pt>
 File: gbc.png Graphic file (type png)
 <use gbc.png>
-Package pdftex.def Info: gbc.png  used on input line 376.
+Package pdftex.def Info: gbc.png  used on input line 372.
 (pdftex.def)             Requested size: 56.90189pt x 28.45209pt.
-<cewil.jpg, id=378, 2007.5pt x 536.0025pt>
+<cewil.jpg, id=382, 2007.5pt x 536.0025pt>
 File: cewil.jpg Graphic file (type jpg)
 <use cewil.jpg>
-Package pdftex.def Info: cewil.jpg  used on input line 376.
+Package pdftex.def Info: cewil.jpg  used on input line 372.
 (pdftex.def)             Requested size: 113.79767pt x 28.44562pt.
  [21
 
  <./credits.png> <./gbc.png> <./cewil.jpg>]
+
+Package biblatex Warning: 'sorting' option to '\printbibliography' is no longer
+ supported.
+(biblatex)                Please use 'sorting' option to '\newrefcontext'.
+
+[22
+
+] [23
+
+
+]
 \tf@nav=\write7
 \openout7 = `beap_pres_dec.nav'.
 
@@ -1532,55 +1537,39 @@ Package pdftex.def Info: cewil.jpg  used on input line 376.
 \openout9 = `beap_pres_dec.snm'.
 
  (./beap_pres_dec.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `beap_pres_dec.out' has not changed.
-(rerunfilecheck)             Checksum: 7ED7C8516C33850E896B4F2261D7971D;674.
+(rerunfilecheck)             Checksum: 5D887CF59318DDB1C370522DBCDFDA19;767.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                beap_pres_dec
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'beap_pres_dec.run.xml'.
 \openout1 = `beap_pres_dec.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35623 strings out of 478287
- 737959 string characters out of 5849290
- 1395401 words of memory out of 5000000
- 53082 multiletter control sequences out of 15000+600000
- 479164 words of font info for 65 fonts, out of 8000000 for 9000
+ 35661 strings out of 478287
+ 739298 string characters out of 5849290
+ 1391809 words of memory out of 5000000
+ 53118 multiletter control sequences out of 15000+600000
+ 479464 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,746b,1391s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.0@molin2017role} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@mayer2010adding} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@lister2015gamification} has been referenced 
-but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@fishman2014empowering} has been referenced b
-ut does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@tomavska2022let} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@coller2009effectiveness} has been referenced
- but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@jan2016game} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.0@brown1989situated} has been referenced but d
-oes not exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on beap_pres_dec.pdf (21 pages, 11498639 bytes).
+ 128i,15n,122p,746b,1597s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on beap_pres_dec.pdf (23 pages, 11505457 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 644 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 652 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,18 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'beap_pres_dec.blg'
-[40] biber:340> INFO - === Wed Apr  5, 2023, 14:05:27
+[40] biber:340> INFO - === Tue Jun  6, 2023, 21:06:17
 [48] Biber.pm:418> INFO - Reading 'beap_pres_dec.bcf'
-[85] Biber.pm:972> INFO - Found 8 citekeys in bib section 0
-[93] Biber.pm:4383> INFO - Processing section 0
-[99] Biber.pm:4574> INFO - Looking for bibtex file 'ABC1.bib' for section 0
-[100] bibtex.pm:1713> INFO - LaTeX decoding ...
-[116] bibtex.pm:1518> INFO - Found BibTeX data source 'ABC1.bib'
-[164] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[164] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[164] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[164] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[169] bbl.pm:654> INFO - Writing 'beap_pres_dec.bbl' with encoding 'UTF-8'
-[172] bbl.pm:757> INFO - Output to beap_pres_dec.bbl
-[172] Biber.pm:130> WARN - Duplicate entry key: 'coller2009effectiveness' in file 'ABC1.bib', skipping ...
-[172] Biber.pm:130> WARN - Duplicate entry key: 'tomavska2022let' in file 'ABC1.bib', skipping ...
-[172] Biber.pm:132> INFO - WARNINGS: 2
+[86] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[94] Biber.pm:4383> INFO - Processing section 0
+[100] Biber.pm:4574> INFO - Looking for bibtex file 'ABC1.bib' for section 0
+[101] bibtex.pm:1713> INFO - LaTeX decoding ...
+[106] bibtex.pm:1518> INFO - Found BibTeX data source 'ABC1.bib'
+[152] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[152] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[152] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[152] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[157] bbl.pm:654> INFO - Writing 'beap_pres_dec.bbl' with encoding 'UTF-8'
+[160] bbl.pm:757> INFO - Output to beap_pres_dec.bbl
+[160] Biber.pm:130> WARN - Duplicate entry key: 'coller2009effectiveness' in file 'ABC1.bib', skipping ...
+[160] Biber.pm:132> INFO - WARNINGS: 1
